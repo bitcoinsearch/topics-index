@@ -1,0 +1,5 @@
+pre-commit
+requests
+loguru==0.7.2
+python-dotenv>=0.21.0
+pandas>=2.2.3

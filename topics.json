@@ -1,0 +1,1466 @@
+[
+    {
+        "title": "Accountable Computing Contracts",
+        "categories": [
+            "Contract Protocols"
+        ],
+        "link": "https://bitcoinops.org/en/topics/acc/",
+        "synonyms": [
+            "BitVM",
+            "Zero-Knowledge Contingent Payments (ZKCP)"
+        ]
+    },
+    {
+        "title": "Accidental confiscation",
+        "categories": [
+            "Soft Forks",
+            "Transaction Relay Policy"
+        ],
+        "link": "https://bitcoinops.org/en/topics/accidental-confiscation/",
+        "synonyms": null
+    },
+    {
+        "title": "Adaptor signatures",
+        "categories": [
+            "Contract Protocols",
+            "Privacy Enhancements",
+            "Scripts and Addresses"
+        ],
+        "link": "https://bitcoinops.org/en/topics/adaptor-signatures/",
+        "synonyms": [
+            "Signature adaptors",
+            "Scriptless scripts"
+        ]
+    },
+    {
+        "title": "Addr v2",
+        "categories": [
+            "P2P Network Protocol"
+        ],
+        "link": "https://bitcoinops.org/en/topics/addr-v2/",
+        "synonyms": null
+    },
+    {
+        "title": "Anchor outputs",
+        "categories": [
+            "Lightning Network"
+        ],
+        "link": "https://bitcoinops.org/en/topics/anchor-outputs/",
+        "synonyms": [
+            "Simplified commitments"
+        ]
+    },
+    {
+        "title": "Annex",
+        "categories": [
+            "Scripts and Addresses"
+        ],
+        "link": "https://bitcoinops.org/en/topics/annex/",
+        "synonyms": null
+    },
+    {
+        "title": "Anonymity networks",
+        "categories": [
+            "Privacy Enhancements"
+        ],
+        "link": "https://bitcoinops.org/en/topics/anonymity-networks/",
+        "synonyms": [
+            "Tor",
+            "I2P"
+        ]
+    },
+    {
+        "title": "Ark",
+        "categories": [
+            "Contract Protocols"
+        ],
+        "link": "https://bitcoinops.org/en/topics/ark/",
+        "synonyms": null
+    },
+    {
+        "title": "ASICBoost",
+        "categories": [
+            "Mining"
+        ],
+        "link": "https://bitcoinops.org/en/topics/asicboost/",
+        "synonyms": [
+            "Overt ASICBoost",
+            "Covert ASICBoost"
+        ]
+    },
+    {
+        "title": "AssumeUTXO",
+        "categories": [
+            "Consensus Enforcement",
+            "P2P Network Protocol"
+        ],
+        "link": "https://bitcoinops.org/en/topics/assumeutxo/",
+        "synonyms": null
+    },
+    {
+        "title": "Async payments",
+        "categories": [
+            "Lightning Network"
+        ],
+        "link": "https://bitcoinops.org/en/topics/async-payments/",
+        "synonyms": null
+    },
+    {
+        "title": "Atomic multipath payments (AMPs)",
+        "categories": [
+            "Lightning Network",
+            "Privacy Enhancements"
+        ],
+        "link": "https://bitcoinops.org/en/topics/atomic-multipath/",
+        "synonyms": [
+            "AMP"
+        ]
+    },
+    {
+        "title": "Bech32(m)",
+        "categories": [
+            "Scripts and Addresses"
+        ],
+        "link": "https://bitcoinops.org/en/topics/bech32/",
+        "synonyms": [
+            "Bech32",
+            "Bech32m",
+            "BIP173",
+            "Native segwit address"
+        ]
+    },
+    {
+        "title": "BIP70 payment protocol",
+        "categories": [
+            "Wallet Collaboration Tools",
+            "Invoicing"
+        ],
+        "link": "https://bitcoinops.org/en/topics/bip70-payment-protocol/",
+        "synonyms": null
+    },
+    {
+        "title": "Block explorers",
+        "categories": [
+            "Privacy Problems",
+            "Developer Tools"
+        ],
+        "link": "https://bitcoinops.org/en/topics/block-explorers/",
+        "synonyms": null
+    },
+    {
+        "title": "Block withholding",
+        "categories": [
+            "Mining"
+        ],
+        "link": "https://bitcoinops.org/en/topics/block-withholding/",
+        "synonyms": [
+            "Oblivious shares"
+        ]
+    },
+    {
+        "title": "BLS signatures",
+        "categories": [
+            "Scripts and Addresses"
+        ],
+        "link": "https://bitcoinops.org/en/topics/bls-signatures/",
+        "synonyms": null
+    },
+    {
+        "title": "Channel announcements",
+        "categories": [
+            "Lightning Network"
+        ],
+        "link": "https://bitcoinops.org/en/topics/channel-announcements/",
+        "synonyms": [
+            "Gossip (LN)"
+        ]
+    },
+    {
+        "title": "Channel commitment upgrades",
+        "categories": [
+            "Lightning Network"
+        ],
+        "link": "https://bitcoinops.org/en/topics/channel-commitment-upgrades/",
+        "synonyms": null
+    },
+    {
+        "title": "Channel factories",
+        "categories": [
+            "Lightning Network",
+            "Contract Protocols"
+        ],
+        "link": "https://bitcoinops.org/en/topics/channel-factories/",
+        "synonyms": null
+    },
+    {
+        "title": "Channel jamming attacks",
+        "categories": [
+            "Lightning Network"
+        ],
+        "link": "https://bitcoinops.org/en/topics/channel-jamming-attacks/",
+        "synonyms": null
+    },
+    {
+        "title": "Client-side validation",
+        "categories": [
+            "Contract Protocols"
+        ],
+        "link": "https://bitcoinops.org/en/topics/client-side-validation/",
+        "synonyms": [
+            "RGB",
+            "Taro",
+            "Taproot Assets",
+            "Shielded CSV"
+        ]
+    },
+    {
+        "title": "CLTV expiry delta",
+        "categories": [
+            "Lightning Network"
+        ],
+        "link": "https://bitcoinops.org/en/topics/cltv-expiry-delta/",
+        "synonyms": null
+    },
+    {
+        "title": "Cluster mempool",
+        "categories": [
+            "Transaction Relay Policy",
+            "Mining"
+        ],
+        "link": "https://bitcoinops.org/en/topics/cluster-mempool/",
+        "synonyms": null
+    },
+    {
+        "title": "Codex32",
+        "categories": [
+            "Backup and Recovery"
+        ],
+        "link": "https://bitcoinops.org/en/topics/codex32/",
+        "synonyms": [
+            "BIP93"
+        ]
+    },
+    {
+        "title": "Coin selection",
+        "categories": [
+            "Fee Management",
+            "Privacy Enhancements"
+        ],
+        "link": "https://bitcoinops.org/en/topics/coin-selection/",
+        "synonyms": null
+    },
+    {
+        "title": "Coinjoin",
+        "categories": [
+            "Privacy Enhancements"
+        ],
+        "link": "https://bitcoinops.org/en/topics/coinjoin/",
+        "synonyms": null
+    },
+    {
+        "title": "Coinswap",
+        "categories": [
+            "Privacy Enhancements",
+            "Contract Protocols"
+        ],
+        "link": "https://bitcoinops.org/en/topics/coinswap/",
+        "synonyms": null
+    },
+    {
+        "title": "Compact block filters",
+        "categories": [
+            "Privacy Enhancements",
+            "Lightweight Client Support",
+            "P2P Network Protocol"
+        ],
+        "link": "https://bitcoinops.org/en/topics/compact-block-filters/",
+        "synonyms": [
+            "BIP157",
+            "BIP158",
+            "Neutrino protocol"
+        ]
+    },
+    {
+        "title": "Compact block relay",
+        "categories": [
+            "Bandwidth Reduction",
+            "Mining",
+            "P2P Network Protocol"
+        ],
+        "link": "https://bitcoinops.org/en/topics/compact-block-relay/",
+        "synonyms": [
+            "BIP152"
+        ]
+    },
+    {
+        "title": "Consensus cleanup soft fork",
+        "categories": [
+            "Soft Forks",
+            "Scripts and Addresses",
+            "Mining"
+        ],
+        "link": "https://bitcoinops.org/en/topics/consensus-cleanup-soft-fork/",
+        "synonyms": null
+    },
+    {
+        "title": "Countersign",
+        "categories": [
+            "P2P Network Protocol",
+            "Security Enhancements",
+            "Privacy Enhancements"
+        ],
+        "link": "https://bitcoinops.org/en/topics/countersign/",
+        "synonyms": null
+    },
+    {
+        "title": "Covenants",
+        "categories": [
+            "Scripts and Addresses",
+            "Soft Forks"
+        ],
+        "link": "https://bitcoinops.org/en/topics/covenants/",
+        "synonyms": null
+    },
+    {
+        "title": "CPFP carve out",
+        "categories": [
+            "Fee Management",
+            "Contract Protocols",
+            "Transaction Relay Policy"
+        ],
+        "link": "https://bitcoinops.org/en/topics/cpfp-carve-out/",
+        "synonyms": null
+    },
+    {
+        "title": "Child pays for parent (CPFP)",
+        "categories": [
+            "Fee Management",
+            "Mining"
+        ],
+        "link": "https://bitcoinops.org/en/topics/cpfp/",
+        "synonyms": [
+            "Ancestor feerate mining"
+        ]
+    },
+    {
+        "title": "Cross-input signature aggregation (CISA)",
+        "categories": [
+            "Scripts and Addresses",
+            "Soft Forks"
+        ],
+        "link": "https://bitcoinops.org/en/topics/cross-input-signature-aggregation/",
+        "synonyms": [
+            "Half aggregation"
+        ]
+    },
+    {
+        "title": "CVE-2018-17144",
+        "categories": [
+            "Security Problems"
+        ],
+        "link": "https://bitcoinops.org/en/topics/cve-2018-17144/",
+        "synonyms": [
+            "Duplicate inputs vulnerability"
+        ]
+    },
+    {
+        "title": "CVEs (various)",
+        "categories": [
+            "Security Problems"
+        ],
+        "link": "https://bitcoinops.org/en/topics/cve/",
+        "synonyms": [
+            "CVE-2012-2459",
+            "CVE-2013-2292",
+            "CVE-2015-3641",
+            "CVE-2015-6031",
+            "CVE-2017-12842",
+            "CVE-2017-18350",
+            "CVE-2018-17145",
+            "CVE-2020-14198",
+            "CVE-2020-26895",
+            "CVE-2020-26896",
+            "CVE-2021-31876",
+            "CVE-2023-39910"
+        ]
+    },
+    {
+        "title": "Dandelion",
+        "categories": [
+            "P2P Network Protocol",
+            "Privacy Enhancements"
+        ],
+        "link": "https://bitcoinops.org/en/topics/dandelion/",
+        "synonyms": [
+            "BIP156"
+        ]
+    },
+    {
+        "title": "Default minimum transaction relay feerates",
+        "categories": [
+            "Transaction Relay Policy",
+            "Fee Management",
+            "Mining"
+        ],
+        "link": "https://bitcoinops.org/en/topics/default-minimum-transaction-relay-feerates/",
+        "synonyms": null
+    },
+    {
+        "title": "Discreet Log Contracts (DLCs)",
+        "categories": [
+            "Contract Protocols",
+            "Privacy Enhancements"
+        ],
+        "link": "https://bitcoinops.org/en/topics/discreet-log-contracts/",
+        "synonyms": null
+    },
+    {
+        "title": "Discrete log equivalency (DLEQ)",
+        "categories": [
+            "Privacy Enhancements"
+        ],
+        "link": "https://bitcoinops.org/en/topics/discrete-log-equivalency/",
+        "synonyms": [
+            "Proofs of discrete log equivalency (PODLE)"
+        ]
+    },
+    {
+        "title": "Dual funding",
+        "categories": [
+            "Lightning Network",
+            "Liquidity Management"
+        ],
+        "link": "https://bitcoinops.org/en/topics/dual-funding/",
+        "synonyms": [
+            "Interactive funding protocol"
+        ]
+    },
+    {
+        "title": "Duplex micropayment channels",
+        "categories": [
+            "Lightning Network",
+            "Contract Protocols"
+        ],
+        "link": "https://bitcoinops.org/en/topics/duplex-micropayment-channels/",
+        "synonyms": null
+    },
+    {
+        "title": "Duplicate transactions",
+        "categories": [
+            "Security Problems",
+            "Soft Forks"
+        ],
+        "link": "https://bitcoinops.org/en/topics/duplicate-transactions/",
+        "synonyms": [
+            "Block 1,983,702 problem"
+        ]
+    },
+    {
+        "title": "Ecash",
+        "categories": [
+            "Privacy Enhancements"
+        ],
+        "link": "https://bitcoinops.org/en/topics/ecash/",
+        "synonyms": null
+    },
+    {
+        "title": "Eclipse attacks",
+        "categories": [
+            "P2P Network Protocol",
+            "Security Problems"
+        ],
+        "link": "https://bitcoinops.org/en/topics/eclipse-attacks/",
+        "synonyms": null
+    },
+    {
+        "title": "Eltoo",
+        "categories": [
+            "Lightning Network",
+            "Contract Protocols"
+        ],
+        "link": "https://bitcoinops.org/en/topics/eltoo/",
+        "synonyms": [
+            "LN-Symmetry"
+        ]
+    },
+    {
+        "title": "Ephemeral anchors",
+        "categories": [
+            "Contract Protocols",
+            "Fee Management",
+            "P2P Network Protocol"
+        ],
+        "link": "https://bitcoinops.org/en/topics/ephemeral-anchors/",
+        "synonyms": [
+            "Pay-to-Anchor (P2A)",
+            "Ephemeral dust"
+        ]
+    },
+    {
+        "title": "Erlay",
+        "categories": [
+            "P2P Network Protocol",
+            "Bandwidth Reduction"
+        ],
+        "link": "https://bitcoinops.org/en/topics/erlay/",
+        "synonyms": null
+    },
+    {
+        "title": "Exfiltration-resistant signing",
+        "categories": [
+            "Security Enhancements",
+            "Wallet Collaboration Tools"
+        ],
+        "link": "https://bitcoinops.org/en/topics/exfiltration-resistant-signing/",
+        "synonyms": null
+    },
+    {
+        "title": "Expiration floods",
+        "categories": [
+            "Contract Protocols",
+            "Lightning Network",
+            "Security Problems",
+            "Security Enhancements"
+        ],
+        "link": "https://bitcoinops.org/en/topics/expiration-floods/",
+        "synonyms": [
+            "Forced expiration spam",
+            "Flood and loot"
+        ]
+    },
+    {
+        "title": "Fee estimation",
+        "categories": [
+            "Fee Management"
+        ],
+        "link": "https://bitcoinops.org/en/topics/fee-estimation/",
+        "synonyms": null
+    },
+    {
+        "title": "Fee sniping",
+        "categories": [
+            "Mining",
+            "Security Problems",
+            "Security Enhancements"
+        ],
+        "link": "https://bitcoinops.org/en/topics/fee-sniping/",
+        "synonyms": [
+            "Anti fee sniping"
+        ]
+    },
+    {
+        "title": "Fee sourcing",
+        "categories": [
+            "Contract Protocols",
+            "Fee Management"
+        ],
+        "link": "https://bitcoinops.org/en/topics/fee-sourcing/",
+        "synonyms": [
+            "Exogenous fees",
+            "Endogenous fees"
+        ]
+    },
+    {
+        "title": "Fee sponsorship",
+        "categories": [
+            "Fee Management"
+        ],
+        "link": "https://bitcoinops.org/en/topics/fee-sponsorship/",
+        "synonyms": null
+    },
+    {
+        "title": "Free relay",
+        "categories": [
+            "P2P Network Protocol",
+            "Transaction Relay Policy"
+        ],
+        "link": "https://bitcoinops.org/en/topics/free-relay/",
+        "synonyms": null
+    },
+    {
+        "title": "Gap limits",
+        "categories": [
+            "Backup and Recovery",
+            "Wallet Collaboration Tools"
+        ],
+        "link": "https://bitcoinops.org/en/topics/gap-limits/",
+        "synonyms": null
+    },
+    {
+        "title": "Generic signmessage",
+        "categories": [
+            "Wallet Collaboration Tools"
+        ],
+        "link": "https://bitcoinops.org/en/topics/generic-signmessage/",
+        "synonyms": [
+            "Signmessage",
+            "BIP322"
+        ]
+    },
+    {
+        "title": "HD key generation",
+        "categories": [
+            "Scripts and Addresses",
+            "Wallet Collaboration Tools"
+        ],
+        "link": "https://bitcoinops.org/en/topics/hd-key-generation/",
+        "synonyms": [
+            "BIP32",
+            "HD wallets"
+        ]
+    },
+    {
+        "title": "Hold invoices",
+        "categories": [
+            "Lightning Network"
+        ],
+        "link": "https://bitcoinops.org/en/topics/hold-invoices/",
+        "synonyms": null
+    },
+    {
+        "title": "HTLC endorsement",
+        "categories": [
+            "Lightning Network"
+        ],
+        "link": "https://bitcoinops.org/en/topics/htlc-endorsement/",
+        "synonyms": null
+    },
+    {
+        "title": "Hash Time Locked Contract (HTLC)",
+        "categories": [
+            "Contract Protocols",
+            "Lightning Network"
+        ],
+        "link": "https://bitcoinops.org/en/topics/htlc/",
+        "synonyms": null
+    },
+    {
+        "title": "Hardware wallet interface (HWI)",
+        "categories": [
+            "Wallet Collaboration Tools"
+        ],
+        "link": "https://bitcoinops.org/en/topics/hwi/",
+        "synonyms": null
+    },
+    {
+        "title": "Inbound forwarding fees",
+        "categories": [
+            "Lightning Network"
+        ],
+        "link": "https://bitcoinops.org/en/topics/inbound-forwarding-fees/",
+        "synonyms": null
+    },
+    {
+        "title": "Just-In-Time (JIT) channels",
+        "categories": [
+            "Lightning Network",
+            "Liquidity Management"
+        ],
+        "link": "https://bitcoinops.org/en/topics/jit-channels/",
+        "synonyms": null
+    },
+    {
+        "title": "Just-in-time (JIT) routing",
+        "categories": [
+            "Lightning Network",
+            "Liquidity Management"
+        ],
+        "link": "https://bitcoinops.org/en/topics/jit-routing/",
+        "synonyms": null
+    },
+    {
+        "title": "Joinpools",
+        "categories": [
+            "Contract Protocols",
+            "Fee Management",
+            "Privacy Enhancements"
+        ],
+        "link": "https://bitcoinops.org/en/topics/joinpools/",
+        "synonyms": [
+            "Payment pools",
+            "Coinpools"
+        ]
+    },
+    {
+        "title": "Kindred replace by fee",
+        "categories": [
+            "Fee Management",
+            "Transaction Relay Policy"
+        ],
+        "link": "https://bitcoinops.org/en/topics/kindred-replace-by-fee/",
+        "synonyms": [
+            "Sibling eviction"
+        ]
+    },
+    {
+        "title": "Large channels",
+        "categories": [
+            "Lightning Network"
+        ],
+        "link": "https://bitcoinops.org/en/topics/large-channels/",
+        "synonyms": [
+            "Wumbo"
+        ]
+    },
+    {
+        "title": "Liquidity advertisements",
+        "categories": [
+            "Lightning Network",
+            "Liquidity Management"
+        ],
+        "link": "https://bitcoinops.org/en/topics/liquidity-advertisements/",
+        "synonyms": null
+    },
+    {
+        "title": "LNURL",
+        "categories": [
+            "Lightning Network",
+            "Invoicing"
+        ],
+        "link": "https://bitcoinops.org/en/topics/lnurl/",
+        "synonyms": [
+            "Lightning Addresses"
+        ]
+    },
+    {
+        "title": "Low-r grinding",
+        "categories": [
+            "Bandwidth Reduction",
+            "Fee Management"
+        ],
+        "link": "https://bitcoinops.org/en/topics/low-r-grinding/",
+        "synonyms": [
+            "Signature grinding"
+        ]
+    },
+    {
+        "title": "MAST",
+        "categories": [
+            "Soft Forks",
+            "Scripts and Addresses",
+            "Privacy Enhancements"
+        ],
+        "link": "https://bitcoinops.org/en/topics/mast/",
+        "synonyms": null
+    },
+    {
+        "title": "MATT",
+        "categories": [
+            "Soft Forks"
+        ],
+        "link": "https://bitcoinops.org/en/topics/matt/",
+        "synonyms": [
+            "OP_CHECKCONTRACTVERIFY"
+        ]
+    },
+    {
+        "title": "Merkle tree vulnerabilities",
+        "categories": [
+            "Security Problems"
+        ],
+        "link": "https://bitcoinops.org/en/topics/merkle-tree-vulnerabilities/",
+        "synonyms": null
+    },
+    {
+        "title": "Miniscript",
+        "categories": [
+            "Scripts and Addresses",
+            "Wallet Collaboration Tools",
+            "Developer Tools"
+        ],
+        "link": "https://bitcoinops.org/en/topics/miniscript/",
+        "synonyms": null
+    },
+    {
+        "title": "Minisketch",
+        "categories": [
+            "Developer Tools"
+        ],
+        "link": "https://bitcoinops.org/en/topics/minisketch/",
+        "synonyms": [
+            "Libminisketch"
+        ]
+    },
+    {
+        "title": "Multipath payments",
+        "categories": [
+            "Lightning Network"
+        ],
+        "link": "https://bitcoinops.org/en/topics/multipath-payments/",
+        "synonyms": [
+            "Multipart payments",
+            "Simplified multipath payments",
+            "Base AMP"
+        ]
+    },
+    {
+        "title": "Scriptless multisignatures",
+        "categories": [
+            "Privacy Enhancements",
+            "Fee Management"
+        ],
+        "link": "https://bitcoinops.org/en/topics/multisignature/",
+        "synonyms": [
+            "2pECDSA",
+            "Two-Party ECDSA (2pECDSA)"
+        ]
+    },
+    {
+        "title": "MuSig",
+        "categories": [
+            "Scripts and Addresses"
+        ],
+        "link": "https://bitcoinops.org/en/topics/musig/",
+        "synonyms": null
+    },
+    {
+        "title": "Offers",
+        "categories": [
+            "Lightning Network",
+            "Invoicing",
+            "Wallet Collaboration Tools"
+        ],
+        "link": "https://bitcoinops.org/en/topics/offers/",
+        "synonyms": [
+            "BOLT12"
+        ]
+    },
+    {
+        "title": "Onion messages",
+        "categories": [
+            "Lightning Network"
+        ],
+        "link": "https://bitcoinops.org/en/topics/onion-messages/",
+        "synonyms": null
+    },
+    {
+        "title": "OP_CAT",
+        "categories": [
+            "Scripts and Addresses",
+            "Soft Forks"
+        ],
+        "link": "https://bitcoinops.org/en/topics/op_cat/",
+        "synonyms": null
+    },
+    {
+        "title": "OP_CHECKSIGFROMSTACK",
+        "categories": [
+            "Scripts and Addresses",
+            "Soft Forks"
+        ],
+        "link": "https://bitcoinops.org/en/topics/op_checksigfromstack/",
+        "synonyms": null
+    },
+    {
+        "title": "OP_CHECKTEMPLATEVERIFY",
+        "categories": [
+            "Scripts and Addresses",
+            "Soft Forks",
+            "Fee Management"
+        ],
+        "link": "https://bitcoinops.org/en/topics/op_checktemplateverify/",
+        "synonyms": null
+    },
+    {
+        "title": "OP_CODESEPARATOR",
+        "categories": [
+            "Scripts and Addresses"
+        ],
+        "link": "https://bitcoinops.org/en/topics/op_codeseparator/",
+        "synonyms": null
+    },
+    {
+        "title": "Out-of-band fees",
+        "categories": [
+            "Fee Management",
+            "Security Problems"
+        ],
+        "link": "https://bitcoinops.org/en/topics/out-of-band-fees/",
+        "synonyms": null
+    },
+    {
+        "title": "Output linking",
+        "categories": [
+            "Privacy Enhancements",
+            "Privacy Problems",
+            "Security Problems"
+        ],
+        "link": "https://bitcoinops.org/en/topics/output-linking/",
+        "synonyms": [
+            "Address reuse",
+            "Dust attacks",
+            "Reuse avoidance"
+        ]
+    },
+    {
+        "title": "Output script descriptors",
+        "categories": [
+            "Scripts and Addresses",
+            "Wallet Collaboration Tools"
+        ],
+        "link": "https://bitcoinops.org/en/topics/output-script-descriptors/",
+        "synonyms": [
+            "Descriptors"
+        ]
+    },
+    {
+        "title": "Package relay",
+        "categories": [
+            "Fee Management",
+            "Transaction Relay Policy"
+        ],
+        "link": "https://bitcoinops.org/en/topics/package-relay/",
+        "synonyms": [
+            "BIP331"
+        ]
+    },
+    {
+        "title": "Pay-to-Contract (P2C) protocols",
+        "categories": [
+            "Privacy Enhancements",
+            "Scripts and Addresses"
+        ],
+        "link": "https://bitcoinops.org/en/topics/pay-to-contract-outputs/",
+        "synonyms": null
+    },
+    {
+        "title": "Payjoin",
+        "categories": [
+            "Privacy Enhancements"
+        ],
+        "link": "https://bitcoinops.org/en/topics/payjoin/",
+        "synonyms": [
+            "Pay-to-EndPoint",
+            "Bustapay",
+            "BIP79"
+        ]
+    },
+    {
+        "title": "Payment batching",
+        "categories": [
+            "Fee Management"
+        ],
+        "link": "https://bitcoinops.org/en/topics/payment-batching/",
+        "synonyms": [
+            "Batching"
+        ]
+    },
+    {
+        "title": "Payment probes",
+        "categories": [
+            "Lightning Network",
+            "Privacy Problems"
+        ],
+        "link": "https://bitcoinops.org/en/topics/payment-probes/",
+        "synonyms": [
+            "Probing"
+        ]
+    },
+    {
+        "title": "Payment secrets",
+        "categories": [
+            "Lightning Network",
+            "Privacy Enhancements"
+        ],
+        "link": "https://bitcoinops.org/en/topics/payment-secrets/",
+        "synonyms": null
+    },
+    {
+        "title": "Peer storage",
+        "categories": [
+            "Backup and Recovery",
+            "Lightning Network"
+        ],
+        "link": "https://bitcoinops.org/en/topics/peer-storage/",
+        "synonyms": null
+    },
+    {
+        "title": "Pooled mining",
+        "categories": [
+            "Mining"
+        ],
+        "link": "https://bitcoinops.org/en/topics/pooled-mining/",
+        "synonyms": [
+            "Betterhash",
+            "Braidpool",
+            "Stratum",
+            "Stratum v2"
+        ]
+    },
+    {
+        "title": "Proof of payment",
+        "categories": [
+            "Contract Protocols",
+            "Lightning Network"
+        ],
+        "link": "https://bitcoinops.org/en/topics/proof-of-payment/",
+        "synonyms": null
+    },
+    {
+        "title": "Proof of reserves",
+        "categories": [
+            "Security Enhancements",
+            "Wallet Collaboration Tools"
+        ],
+        "link": "https://bitcoinops.org/en/topics/proof-of-reserves/",
+        "synonyms": null
+    },
+    {
+        "title": "Partially signed bitcoin transactions",
+        "categories": [
+            "Wallet Collaboration Tools"
+        ],
+        "link": "https://bitcoinops.org/en/topics/psbt/",
+        "synonyms": [
+            "BIP174",
+            "PSBT"
+        ]
+    },
+    {
+        "title": "Point Time Locked Contracts (PTLCs)",
+        "categories": [
+            "Contract Protocols",
+            "Lightning Network",
+            "Privacy Enhancements"
+        ],
+        "link": "https://bitcoinops.org/en/topics/ptlc/",
+        "synonyms": null
+    },
+    {
+        "title": "Quantum resistance",
+        "categories": [
+            "Security Enhancements"
+        ],
+        "link": "https://bitcoinops.org/en/topics/quantum-resistance/",
+        "synonyms": [
+            "Post-quantum cryptography"
+        ]
+    },
+    {
+        "title": "Redundant overpayments",
+        "categories": [
+            "Lightning Network"
+        ],
+        "link": "https://bitcoinops.org/en/topics/redundant-overpayments/",
+        "synonyms": [
+            "Stuckless payments",
+            "Boomerang payments"
+        ]
+    },
+    {
+        "title": "Rendez-vous routing",
+        "categories": [
+            "Lightning Network",
+            "Privacy Enhancements"
+        ],
+        "link": "https://bitcoinops.org/en/topics/rendez-vous-routing/",
+        "synonyms": [
+            "Hidden destinations",
+            "Blinded paths",
+            "Route blinding"
+        ]
+    },
+    {
+        "title": "Replace-by-fee (RBF)",
+        "categories": [
+            "Fee Management",
+            "Transaction Relay Policy",
+            "Mining"
+        ],
+        "link": "https://bitcoinops.org/en/topics/replace-by-fee/",
+        "synonyms": [
+            "BIP125",
+            "Opt-in Replace-by-Fee",
+            "Full-RBF"
+        ]
+    },
+    {
+        "title": "Replacement cycling",
+        "categories": [
+            "Contract Protocols",
+            "Lightning Network",
+            "Security Problems",
+            "Transaction Relay Policy"
+        ],
+        "link": "https://bitcoinops.org/en/topics/replacement-cycling/",
+        "synonyms": null
+    },
+    {
+        "title": "Reproducible builds",
+        "categories": [
+            "Security Enhancements"
+        ],
+        "link": "https://bitcoinops.org/en/topics/reproducible-builds/",
+        "synonyms": [
+            "Gitian",
+            "Guix"
+        ]
+    },
+    {
+        "title": "Responsible disclosures",
+        "categories": [
+            "Security Problems"
+        ],
+        "link": "https://bitcoinops.org/en/topics/responsible-disclosures/",
+        "synonyms": null
+    },
+    {
+        "title": "Schnorr signatures",
+        "categories": [
+            "Soft Forks",
+            "Scripts and Addresses"
+        ],
+        "link": "https://bitcoinops.org/en/topics/schnorr-signatures/",
+        "synonyms": null
+    },
+    {
+        "title": "Segregated witness",
+        "categories": [
+            "Soft Forks"
+        ],
+        "link": "https://bitcoinops.org/en/topics/segregated-witness/",
+        "synonyms": null
+    },
+    {
+        "title": "Side channels",
+        "categories": [
+            "Security Problems",
+            "Security Enhancements"
+        ],
+        "link": "https://bitcoinops.org/en/topics/side-channels/",
+        "synonyms": null
+    },
+    {
+        "title": "Sidechains",
+        "categories": [
+            "Contract Protocols"
+        ],
+        "link": "https://bitcoinops.org/en/topics/sidechains/",
+        "synonyms": null
+    },
+    {
+        "title": "SIGHASH_ANYPREVOUT",
+        "categories": [
+            "Soft Forks",
+            "Scripts and Addresses"
+        ],
+        "link": "https://bitcoinops.org/en/topics/sighash_anyprevout/",
+        "synonyms": [
+            "SIGHASH_NOINPUT"
+        ]
+    },
+    {
+        "title": "Signer delegation",
+        "categories": [
+            "Contract Protocols",
+            "Scripts and Addresses"
+        ],
+        "link": "https://bitcoinops.org/en/topics/signer-delegation/",
+        "synonyms": [
+            "Delegation"
+        ]
+    },
+    {
+        "title": "Signet",
+        "categories": [
+            "Developer Tools"
+        ],
+        "link": "https://bitcoinops.org/en/topics/signet/",
+        "synonyms": null
+    },
+    {
+        "title": "Silent payments",
+        "categories": [
+            "Privacy Enhancements"
+        ],
+        "link": "https://bitcoinops.org/en/topics/silent-payments/",
+        "synonyms": null
+    },
+    {
+        "title": "Simple taproot channels",
+        "categories": [
+            "Lightning Network"
+        ],
+        "link": "https://bitcoinops.org/en/topics/simple-taproot-channels/",
+        "synonyms": null
+    },
+    {
+        "title": "Simplicity",
+        "categories": [
+            "Scripts and Addresses",
+            "Soft Forks"
+        ],
+        "link": "https://bitcoinops.org/en/topics/simplicity/",
+        "synonyms": null
+    },
+    {
+        "title": "Soft fork activation",
+        "categories": [
+            "Consensus Enforcement",
+            "Soft Forks"
+        ],
+        "link": "https://bitcoinops.org/en/topics/soft-fork-activation/",
+        "synonyms": [
+            "BIP8",
+            "BIP9"
+        ]
+    },
+    {
+        "title": "Splicing",
+        "categories": [
+            "Lightning Network",
+            "Liquidity Management"
+        ],
+        "link": "https://bitcoinops.org/en/topics/splicing/",
+        "synonyms": null
+    },
+    {
+        "title": "Spontaneous payments",
+        "categories": [
+            "Lightning Network"
+        ],
+        "link": "https://bitcoinops.org/en/topics/spontaneous-payments/",
+        "synonyms": [
+            "Keysend"
+        ]
+    },
+    {
+        "title": "Statechains",
+        "categories": [
+            "Contract Protocols"
+        ],
+        "link": "https://bitcoinops.org/en/topics/statechains/",
+        "synonyms": null
+    },
+    {
+        "title": "Stateless invoices",
+        "categories": [
+            "Lightning Network"
+        ],
+        "link": "https://bitcoinops.org/en/topics/stateless-invoices/",
+        "synonyms": null
+    },
+    {
+        "title": "Static channel backups",
+        "categories": [
+            "Lightning Network",
+            "Backup and Recovery"
+        ],
+        "link": "https://bitcoinops.org/en/topics/static-channel-backups/",
+        "synonyms": null
+    },
+    {
+        "title": "Submarine swaps",
+        "categories": [
+            "Lightning Network",
+            "Liquidity Management"
+        ],
+        "link": "https://bitcoinops.org/en/topics/submarine-swaps/",
+        "synonyms": null
+    },
+    {
+        "title": "Taproot",
+        "categories": [
+            "Soft Forks",
+            "Scripts and Addresses",
+            "Privacy Enhancements"
+        ],
+        "link": "https://bitcoinops.org/en/topics/taproot/",
+        "synonyms": null
+    },
+    {
+        "title": "Tapscript",
+        "categories": [
+            "Soft Forks",
+            "Scripts and Addresses"
+        ],
+        "link": "https://bitcoinops.org/en/topics/tapscript/",
+        "synonyms": null
+    },
+    {
+        "title": "Testnet",
+        "categories": [
+            "Developer Tools"
+        ],
+        "link": "https://bitcoinops.org/en/topics/testnet/",
+        "synonyms": [
+            "Testnet3",
+            "Testnet4"
+        ]
+    },
+    {
+        "title": "Threshold signature",
+        "categories": [
+            "Privacy Enhancements",
+            "Fee Management"
+        ],
+        "link": "https://bitcoinops.org/en/topics/threshold-signature/",
+        "synonyms": null
+    },
+    {
+        "title": "Time warp",
+        "categories": [
+            "Security Problems"
+        ],
+        "link": "https://bitcoinops.org/en/topics/time-warp/",
+        "synonyms": null
+    },
+    {
+        "title": "Timelocks",
+        "categories": [
+            "Scripts and Addresses",
+            "Contract Protocols",
+            "Transaction Relay Policy"
+        ],
+        "link": "https://bitcoinops.org/en/topics/timelocks/",
+        "synonyms": null
+    },
+    {
+        "title": "Trampoline payments",
+        "categories": [
+            "Lightning Network"
+        ],
+        "link": "https://bitcoinops.org/en/topics/trampoline-payments/",
+        "synonyms": null
+    },
+    {
+        "title": "Transaction bloom filtering",
+        "categories": [
+            "Lightweight Client Support",
+            "Privacy Problems",
+            "P2P Network Protocol",
+            "Security Problems"
+        ],
+        "link": "https://bitcoinops.org/en/topics/transaction-bloom-filtering/",
+        "synonyms": [
+            "BIP37",
+            "Bloom filters"
+        ]
+    },
+    {
+        "title": "Transaction origin privacy",
+        "categories": [
+            "Transaction Relay Policy",
+            "Privacy Enhancements",
+            "Privacy Problems"
+        ],
+        "link": "https://bitcoinops.org/en/topics/transaction-origin-privacy/",
+        "synonyms": null
+    },
+    {
+        "title": "Transaction pinning",
+        "categories": [
+            "Security Problems",
+            "Fee Management",
+            "Contract Protocols",
+            "Transaction Relay Policy"
+        ],
+        "link": "https://bitcoinops.org/en/topics/transaction-pinning/",
+        "synonyms": null
+    },
+    {
+        "title": "Trimmed HTLC",
+        "categories": [
+            "Lightning Network"
+        ],
+        "link": "https://bitcoinops.org/en/topics/trimmed-htlc/",
+        "synonyms": null
+    },
+    {
+        "title": "Unannounced channels",
+        "categories": [
+            "Lightning Network"
+        ],
+        "link": "https://bitcoinops.org/en/topics/unannounced-channels/",
+        "synonyms": [
+            "Private channels"
+        ]
+    },
+    {
+        "title": "Uneconomical outputs",
+        "categories": [
+            "Transaction Relay Policy",
+            "Privacy Problems"
+        ],
+        "link": "https://bitcoinops.org/en/topics/uneconomical-outputs/",
+        "synonyms": [
+            "Dust"
+        ]
+    },
+    {
+        "title": "Utreexo",
+        "categories": [
+            "P2P Network Protocol",
+            "Consensus Enforcement"
+        ],
+        "link": "https://bitcoinops.org/en/topics/utreexo/",
+        "synonyms": null
+    },
+    {
+        "title": "Version 2 P2P transport",
+        "categories": [
+            "P2P Network Protocol",
+            "Privacy Enhancements"
+        ],
+        "link": "https://bitcoinops.org/en/topics/v2-p2p-transport/",
+        "synonyms": [
+            "BIP151",
+            "BIP324"
+        ]
+    },
+    {
+        "title": "Vaults",
+        "categories": [
+            "Scripts and Addresses",
+            "Security Enhancements"
+        ],
+        "link": "https://bitcoinops.org/en/topics/vaults/",
+        "synonyms": null
+    },
+    {
+        "title": "Version 3 transaction relay",
+        "categories": [
+            "Contract Protocols",
+            "Transaction Relay Policy"
+        ],
+        "link": "https://bitcoinops.org/en/topics/version-3-transaction-relay/",
+        "synonyms": [
+            "Topologically Restricted Until Confirmation (TRUC)"
+        ]
+    },
+    {
+        "title": "Wallet labels",
+        "categories": [
+            "Backup and Recovery",
+            "Wallet Collaboration Tools"
+        ],
+        "link": "https://bitcoinops.org/en/topics/wallet-labels/",
+        "synonyms": null
+    },
+    {
+        "title": "Watchtowers",
+        "categories": [
+            "Lightning Network",
+            "Security Enhancements",
+            "Backup and Recovery"
+        ],
+        "link": "https://bitcoinops.org/en/topics/watchtowers/",
+        "synonyms": null
+    },
+    {
+        "title": "X-only public keys",
+        "categories": [
+            "Scripts and Addresses"
+        ],
+        "link": "https://bitcoinops.org/en/topics/x-only-public-keys/",
+        "synonyms": null
+    },
+    {
+        "title": "Zero-conf channels",
+        "categories": [
+            "Lightning Network"
+        ],
+        "link": "https://bitcoinops.org/en/topics/zero-conf-channels/",
+        "synonyms": null
+    }
+]
