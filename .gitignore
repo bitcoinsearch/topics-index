@@ -39,4 +39,5 @@ build/Release
 # Stores VSCode versions used for testing VSCode extensions
 .vscode-test
 
-src/__pycache/
+src/__pycache__/
+src/__pycache__
