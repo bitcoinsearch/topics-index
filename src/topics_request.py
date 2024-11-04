@@ -46,6 +46,8 @@ class TopicsIndex:
 
     @staticmethod
     def save_topics_to_json(transformed_data: []):
+        existing_data = []
+
         # Check if the file already exists
         if os.path.exists("topics.json"):
             # Check if the file is empty
@@ -53,11 +55,6 @@ class TopicsIndex:
                 # Load existing data if file is non-empty
                 with open("topics.json", "r") as file:
                     existing_data = json.load(file)
-            else:
-                # Initialize empty list if the file is empty
-                existing_data = []
-        else:
-            existing_data = []
 
         # Create a set of existing titles for quick duplicate check
         existing_titles = {item["title"] for item in existing_data}
