@@ -1,12 +1,11 @@
 import os
-
-import requests
 import json
+
 from loguru import logger
 from dotenv import load_dotenv
+import requests
 
 load_dotenv()
-
 
 class TopicsIndex:
     def get_ops_topics(self):
@@ -15,7 +14,7 @@ class TopicsIndex:
 
             url = "https://bitcoinops.org/topics.json"
 
-            response = requests.get(url, headers=headers)
+            response = requests.get(url, headers=headers,timeout=90)
             response.raise_for_status()  # Raise an HTTPError if the response status is 4xx or 5xx
 
             # Check if the request was successful
@@ -29,7 +28,9 @@ class TopicsIndex:
                         "title": item.get("title"),
                         "categories": item.get("categories"),
                         "link": item.get("optech_url"),
-                        "synonyms": item.get("aliases")
+                        "aliases": item.get("aliases"),
+                        "slug": item.get("slug"),
+                        "excerpt": item.get("excerpt"),
                     }
                     for item in data
                 ]
