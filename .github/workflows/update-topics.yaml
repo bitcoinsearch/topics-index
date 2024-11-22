@@ -1,0 +1,67 @@
+name: Update Topics Index (Weekly)
+
+on:
+  schedule:
+    - cron: '0 0 * * 0'  # Runs at 00:00 UTC every Sunday
+  workflow_dispatch:      # Allows manual triggering
+  push:
+    branches:
+      - 'test/*'         # Runs on any branch under test/
+
+# Add explicit permissions for the GITHUB_TOKEN
+permissions:
+  contents: write  # Allows pushing to the repository
+
+jobs:
+  update-topics:
+    runs-on: ubuntu-latest
+
+    # Add environment variables to control behavior
+    env:
+      IS_TEST: ${{ startsWith(github.ref, 'refs/heads/test/') }}
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install -r scripts/requirements.txt
+
+      - name: Build Index
+        run: python scripts/build_index.py
+
+      - name: Check for changes
+        id: changes
+        run: |
+          git diff --quiet || echo "changes=true" >> $GITHUB_OUTPUT
+
+      - name: Configure Git
+        if: steps.changes.outputs.changes == 'true'
+        run: |
+          git config user.name "GitHub Actions Bot"
+          git config user.email "actions@github.com"
+
+      # Add debug information in test mode
+      - name: Debug Info (Test Mode)
+        if: env.IS_TEST == 'true'
+        run: |
+          echo "Changes detected: ${{ steps.changes.outputs.changes }}"
+          git diff --stat
+          git status
+
+      - name: Commit and push if there are changes
+        if: steps.changes.outputs.changes == 'true'
+        run: |
+          git add topics.json TOPICS.md
+          # Add [TEST] prefix to commit message on test branches
+          if [[ "${{ env.IS_TEST }}" == "true" ]]; then
+            git commit -m "[TEST] Auto-update topics index"
+          else
+            git commit -m "Auto-update topics index"
+          fi
+          git push

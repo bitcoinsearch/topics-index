@@ -1,0 +1,1941 @@
+[
+  {
+    "title": "Accidental confiscation",
+    "slug": "accidental-confiscation",
+    "optech_url": "https://bitcoinops.org/en/topics/accidental-confiscation/",
+    "categories": [
+      "Soft Forks",
+      "Transaction Relay Policy"
+    ],
+    "aliases": null,
+    "excerpt": "**Accidental confiscation** can occur if a poorly designed soft fork permanently prevents a user from being able to get a transaction confirmed.\n"
+  },
+  {
+    "title": "Accountable Computing Contracts",
+    "slug": "acc",
+    "optech_url": "https://bitcoinops.org/en/topics/acc/",
+    "categories": [
+      "Contract Protocols"
+    ],
+    "aliases": [
+      "BitVM",
+      "Zero-Knowledge Contingent Payments (ZKCP)"
+    ],
+    "excerpt": "**Accountable Computing Contracts (ACC)** are payments that the receiving party can spend if they verifiably run a specified function on a specified set of inputs.  If the receiving party doesn't run the function or doesn't run it correctly, the paying party can reclaim the payment after a period of time.\n"
+  },
+  {
+    "title": "Adaptor signatures",
+    "slug": "adaptor-signatures",
+    "optech_url": "https://bitcoinops.org/en/topics/adaptor-signatures/",
+    "categories": [
+      "Contract Protocols",
+      "Privacy Enhancements",
+      "Scripts and Addresses"
+    ],
+    "aliases": [
+      "Signature adaptors",
+      "Scriptless scripts"
+    ],
+    "excerpt": "**Adaptor signatures** (also called **signature adaptors**) are auxiliary signature data that commit to a hidden value.  When an adaptor is combined with a corresponding signature, it reveals the hidden value.  Alternatively, when combined with the hidden value, the adaptor reveals the signature.  Other people may create secondary adaptors that reuse the commitment even if they don't know the hidden value. This makes adaptors a powerful tool for implementing locking in bitcoin contracts.\n"
+  },
+  {
+    "title": "Addr v2",
+    "slug": "addr-v2",
+    "optech_url": "https://bitcoinops.org/en/topics/addr-v2/",
+    "categories": [
+      "P2P Network Protocol"
+    ],
+    "aliases": null,
+    "excerpt": "**addr v2** is a proposed new version of the `addr` message in the Bitcoin P2P network protocol, which is used to advertise the addresses of nodes that accept incoming connections.\n"
+  },
+  {
+    "title": "Anchor outputs",
+    "slug": "anchor-outputs",
+    "optech_url": "https://bitcoinops.org/en/topics/anchor-outputs/",
+    "categories": [
+      "Lightning Network"
+    ],
+    "aliases": [
+      "Simplified commitments"
+    ],
+    "excerpt": "**Anchor outputs** are special outputs in LN commitment transactions that are designed to allow the transaction to be fee bumped.  An earlier name for the proposal was **simplified commitments.**\n"
+  },
+  {
+    "title": "Annex",
+    "slug": "annex",
+    "optech_url": "https://bitcoinops.org/en/topics/annex/",
+    "categories": [
+      "Scripts and Addresses"
+    ],
+    "aliases": null,
+    "excerpt": "The taproot **annex** is an optional field in the witness structure of segwit v1 (taproot) inputs that currently has no defined purpose. If an annex is present, any taproot and tapscript signatures must commit to its value.\n"
+  },
+  {
+    "title": "Anonymity networks",
+    "slug": "anonymity-networks",
+    "optech_url": "https://bitcoinops.org/en/topics/anonymity-networks/",
+    "categories": [
+      "Privacy Enhancements"
+    ],
+    "aliases": [
+      "Tor",
+      "I2P"
+    ],
+    "excerpt": "**Anonymity networks** are systems that allow network communication without senders or receivers needing to reveal their IP addresses to each other.  The best known of these are Tor and I2P.\n"
+  },
+  {
+    "title": "Ark",
+    "slug": "ark",
+    "optech_url": "https://bitcoinops.org/en/topics/ark/",
+    "categories": [
+      "Contract Protocols"
+    ],
+    "aliases": null,
+    "excerpt": "**Ark** is a trustless joinpool-style protocol where a large number of users share a UTXO by accepting a counterparty as a co-signer on all transactions within a certain time period.  This spreads the cost of onchain fees from using that UTXO across many users, minimizing their individual costs.\n"
+  },
+  {
+    "title": "ASICBoost",
+    "slug": "asicboost",
+    "optech_url": "https://bitcoinops.org/en/topics/asicboost/",
+    "categories": [
+      "Mining"
+    ],
+    "aliases": [
+      "Overt ASICBoost",
+      "Covert ASICBoost"
+    ],
+    "excerpt": "**ASICBoost** is a technique for specially constructing a Bitcoin block header in order to reduce by about 15% the number of operations necessary to find a certain amount of proof of work.\n"
+  },
+  {
+    "title": "AssumeUTXO",
+    "slug": "assumeutxo",
+    "optech_url": "https://bitcoinops.org/en/topics/assumeutxo/",
+    "categories": [
+      "Consensus Enforcement",
+      "P2P Network Protocol"
+    ],
+    "aliases": null,
+    "excerpt": "**AssumeUTXO** is a proposed mode for bootstrapping new full nodes that allows them to postpone verifying old block chain history until after the user is able to receive recent transactions.\n"
+  },
+  {
+    "title": "Async payments",
+    "slug": "async-payments",
+    "optech_url": "https://bitcoinops.org/en/topics/async-payments/",
+    "categories": [
+      "Lightning Network"
+    ],
+    "aliases": null,
+    "excerpt": "**Async payments** are LN payments that are made when the receiver is offline, are held by a forwarding node (ideally in a trustless manner), and are delivered when the receiver comes back online.\n"
+  },
+  {
+    "title": "Atomic multipath payments (AMPs)",
+    "slug": "amp",
+    "optech_url": "https://bitcoinops.org/en/topics/atomic-multipath/",
+    "categories": [
+      "Lightning Network",
+      "Privacy Enhancements"
+    ],
+    "aliases": [
+      "AMP"
+    ],
+    "excerpt": "**Atomic Multipath Payments (AMPs)**, sometimes called **Original AMP** or **OG AMP**, allow a spender to pay multiple hashes all derived from the same preimage---a preimage the receiver can only reconstruct if they receive a sufficient number of shares.\n"
+  },
+  {
+    "title": "Backup and Recovery (Miscellaneous)",
+    "slug": "backup-and-recovery",
+    "categories": [
+      "Backup and Recovery"
+    ],
+    "excerpt": "A catch-all for information related to Backup and Recovery, covering content that doesn't fit neatly into specific topics."
+  },
+  {
+    "title": "Bandwidth Reduction (Miscellaneous)",
+    "slug": "bandwidth-reduction",
+    "categories": [
+      "Bandwidth Reduction"
+    ],
+    "excerpt": "A catch-all for information related to Bandwidth Reduction, covering content that doesn't fit neatly into specific topics."
+  },
+  {
+    "title": "Bech32(m)",
+    "slug": "bech32",
+    "optech_url": "https://bitcoinops.org/en/topics/bech32/",
+    "categories": [
+      "Scripts and Addresses"
+    ],
+    "aliases": [
+      "Bech32",
+      "Bech32m",
+      "BIP173",
+      "Native segwit address"
+    ],
+    "excerpt": "**Bech32** and **Bech32m** are address formats used to pay native segwit outputs.\n"
+  },
+  {
+    "title": "BIP70 payment protocol",
+    "slug": "bip70-payment-protocol",
+    "optech_url": "https://bitcoinops.org/en/topics/bip70-payment-protocol/",
+    "categories": [
+      "Wallet Collaboration Tools",
+      "Invoicing"
+    ],
+    "aliases": null,
+    "excerpt": "**The BIP70 payment protocol** is an interactive protocol for sending payment requests and receiving payments.\n"
+  },
+  {
+    "title": "Block explorers",
+    "slug": "block-explorers",
+    "optech_url": "https://bitcoinops.org/en/topics/block-explorers/",
+    "categories": [
+      "Privacy Problems",
+      "Developer Tools"
+    ],
+    "aliases": null,
+    "excerpt": "**Block explorers** are tools that maintain an index of transactions and their relationships to each other, allowing fast look up of information useful to wallets, users, and developers.\n"
+  },
+  {
+    "title": "Block withholding",
+    "slug": "block-withholding",
+    "optech_url": "https://bitcoinops.org/en/topics/block-withholding/",
+    "categories": [
+      "Mining"
+    ],
+    "aliases": [
+      "Oblivious shares"
+    ],
+    "excerpt": "**Block withholding** is an attack against pooled mining where a miner submits and receives payment for shares that are not eligible to become full blocks but doesn't submit shares that are eligible to become full blocks.  This allows the miner to earn 99.9% of their expected revenue without the pool earning anything from the miner's work.  **Oblivious shares** is a proposed solution to block withholding.\n"
+  },
+  {
+    "title": "BLS signatures",
+    "slug": "bls-signatures",
+    "optech_url": "https://bitcoinops.org/en/topics/bls-signatures/",
+    "categories": [
+      "Scripts and Addresses"
+    ],
+    "aliases": null,
+    "excerpt": "Boneh--Lynn--Shacham signatures (**BLS signatures**) are digital signatures that provide a different set of tradeoffs compared to the ECDSA and schnorr signatures currently used in Bitcoin.\n"
+  },
+  {
+    "title": "Channel announcements",
+    "slug": "channel-announcements",
+    "optech_url": "https://bitcoinops.org/en/topics/channel-announcements/",
+    "categories": [
+      "Lightning Network"
+    ],
+    "aliases": [
+      "Gossip (LN)"
+    ],
+    "excerpt": "**Channel announcements** are advertisements that a channel is available to forward payments.  The advertisements are relayed through the LN gossip network.\n"
+  },
+  {
+    "title": "Channel commitment upgrades",
+    "slug": "channel-commitment-upgrades",
+    "optech_url": "https://bitcoinops.org/en/topics/channel-commitment-upgrades/",
+    "categories": [
+      "Lightning Network"
+    ],
+    "aliases": null,
+    "excerpt": "**Channel commitment upgrades** are changes to the format of the onchain commitment transaction used by LN, or any other change which would affect the commitment transaction.  Upgrading the LN protocol for these changes requires extra care because both nodes involved in a channel need to agree perfectly on the commitment format.\n"
+  },
+  {
+    "title": "Channel factories",
+    "slug": "channel-factories",
+    "optech_url": "https://bitcoinops.org/en/topics/channel-factories/",
+    "categories": [
+      "Lightning Network",
+      "Contract Protocols"
+    ],
+    "aliases": null,
+    "excerpt": "**Channel factories** are a multi-user contract capable of opening payment channels without putting the channel-open transaction onchain.\n"
+  },
+  {
+    "title": "Channel jamming attacks",
+    "slug": "channel-jamming-attacks",
+    "optech_url": "https://bitcoinops.org/en/topics/channel-jamming-attacks/",
+    "categories": [
+      "Lightning Network"
+    ],
+    "aliases": null,
+    "excerpt": "**Channel jamming attacks** are Denial of Service (DoS) attacks where an attacker can prevent a series of channels up to 20 hops away from being able to use part or all of their funds for a prolonged period of time.\n"
+  },
+  {
+    "title": "Child pays for parent (CPFP)",
+    "slug": "cpfp",
+    "optech_url": "https://bitcoinops.org/en/topics/cpfp/",
+    "categories": [
+      "Fee Management",
+      "Mining"
+    ],
+    "aliases": [
+      "Ancestor feerate mining"
+    ],
+    "excerpt": "**Child Pays For Parent (CPFP)** is a fee bumping technique where a user spends an output from a low-feerate unconfirmed transaction in a child transaction with a high feerate in order to encourage miners to include both transactions in a block.\n"
+  },
+  {
+    "title": "Client-side validation",
+    "slug": "client-side-validation",
+    "optech_url": "https://bitcoinops.org/en/topics/client-side-validation/",
+    "categories": [
+      "Contract Protocols"
+    ],
+    "aliases": [
+      "RGB",
+      "Taro",
+      "Taproot Assets",
+      "Shielded CSV"
+    ],
+    "excerpt": "**Client-side validation protocols** allow a Bitcoin transaction to commit to some data whose validity is determined separate from the validity of the transaction under Bitcoin's consensus rules.  The client-side validation can take advantage of consensus rules, such as only allowing an output to be spent once within a valid block chain, but it may also impose additional rules known only to those interested in the validation.\n"
+  },
+  {
+    "title": "CLTV expiry delta",
+    "slug": "cltv-expiry-delta",
+    "optech_url": "https://bitcoinops.org/en/topics/cltv-expiry-delta/",
+    "categories": [
+      "Lightning Network"
+    ],
+    "aliases": null,
+    "excerpt": "**CLTV expiry delta** is the number of blocks a node has to settle a stalled payment before it could potentially lose money.  The deltas apply within a chain of HTLCs and use the `OP_CHECKLOCKTIMEVERIFY` (CLTV) opcode.\n"
+  },
+  {
+    "title": "Cluster mempool",
+    "slug": "cluster-mempool",
+    "optech_url": "https://bitcoinops.org/en/topics/cluster-mempool/",
+    "categories": [
+      "Transaction Relay Policy",
+      "Mining"
+    ],
+    "aliases": null,
+    "excerpt": "**Cluster mempool** is a proposal to associate each unconfirmed transaction in a mempool with related transactions, creating a _cluster_.  Each cluster contains feerate-sorted _chunks_ consisting of one or more transactions.  If we limit a cluster's size, we also limit how much needs to be recomputed in response to new transactions being added to the mempool, allowing algorithmic decisions affecting the entire mempool to complete fast enough to use them in P2P network code.\n"
+  },
+  {
+    "title": "Codex32",
+    "slug": "codex32",
+    "optech_url": "https://bitcoinops.org/en/topics/codex32/",
+    "categories": [
+      "Backup and Recovery"
+    ],
+    "aliases": [
+      "BIP93"
+    ],
+    "excerpt": "**Codex32** is an encoding designed for BIP32 seeds that is convenient to store on paper.  It supports relatively simple processes for creating a seed, encoding that seed, splitting the seed into parts (requiring a configurable quorum of parts to gain any knowledge of the seed), and verifying the integrity of partial or full seed backups. The processes, though simple, can be laborious, but optional paper assistive devices (volvelles) can reduce some of the effort.\n"
+  },
+  {
+    "title": "Coin selection",
+    "slug": "coin-selection",
+    "optech_url": "https://bitcoinops.org/en/topics/coin-selection/",
+    "categories": [
+      "Fee Management",
+      "Privacy Enhancements"
+    ],
+    "aliases": null,
+    "excerpt": "**Coin selection** is the method a wallet uses to choose which of its UTXOs to spend in a particular transaction.\n"
+  },
+  {
+    "title": "Coinjoin",
+    "slug": "coinjoin",
+    "optech_url": "https://bitcoinops.org/en/topics/coinjoin/",
+    "categories": [
+      "Privacy Enhancements"
+    ],
+    "aliases": null,
+    "excerpt": "**Coinjoin** is a trustless protocol for mixing UTXOs from multiple owners in order to make it difficult for outside parties to use the block chain's transaction history to determine who owns which coin.\n"
+  },
+  {
+    "title": "Coinswap",
+    "slug": "coinswap",
+    "optech_url": "https://bitcoinops.org/en/topics/coinswap/",
+    "categories": [
+      "Privacy Enhancements",
+      "Contract Protocols"
+    ],
+    "aliases": null,
+    "excerpt": "**Coinswap** is a protocol that allows two or more users to create a set of transactions that look like independent payments but which actually swap their coins with each other, optionally making a payment in the process. This improves the privacy of not just the coinswap users but all Bitcoin users, as anything that looks like a payment could have instead been a coinswap.\n"
+  },
+  {
+    "title": "Compact block filters",
+    "slug": "compact-block-filters",
+    "optech_url": "https://bitcoinops.org/en/topics/compact-block-filters/",
+    "categories": [
+      "Privacy Enhancements",
+      "Lightweight Client Support",
+      "P2P Network Protocol"
+    ],
+    "aliases": [
+      "BIP157",
+      "BIP158",
+      "Neutrino protocol"
+    ],
+    "excerpt": "**Compact block filters** are a condensed representation of the contents of a block that allow wallets to determine whether the block contains any transactions involving the user's keys.\n"
+  },
+  {
+    "title": "Compact block relay",
+    "slug": "compact-block-relay",
+    "optech_url": "https://bitcoinops.org/en/topics/compact-block-relay/",
+    "categories": [
+      "Bandwidth Reduction",
+      "Mining",
+      "P2P Network Protocol"
+    ],
+    "aliases": [
+      "BIP152"
+    ],
+    "excerpt": "**Compact block relay** is a protocol that allows two nodes with roughly similar sets of unconfirmed transactions to minimize both the bandwidth and the latency required to transfer a block that confirms many of those same transactions.\n"
+  },
+  {
+    "title": "Consensus cleanup soft fork",
+    "slug": "consensus-cleanup",
+    "optech_url": "https://bitcoinops.org/en/topics/consensus-cleanup-soft-fork/",
+    "categories": [
+      "Soft Forks",
+      "Scripts and Addresses",
+      "Mining"
+    ],
+    "aliases": null,
+    "excerpt": "**Consensus cleanup soft fork** is a proposal to address several issues in Bitcoin's consensus rules that date back to the original version of Bitcoin released in 2009.\n"
+  },
+  {
+    "title": "Consensus Enforcement (Miscellaneous)",
+    "slug": "consensus-enforcement",
+    "categories": [
+      "Consensus Enforcement"
+    ],
+    "excerpt": "A catch-all for information related to Consensus Enforcement, covering content that doesn't fit neatly into specific topics."
+  },
+  {
+    "title": "Contract Protocols (Miscellaneous)",
+    "slug": "contract-protocols",
+    "categories": [
+      "Contract Protocols"
+    ],
+    "excerpt": "A catch-all for information related to Contract Protocols, covering content that doesn't fit neatly into specific topics."
+  },
+  {
+    "title": "Countersign",
+    "slug": "countersign",
+    "optech_url": "https://bitcoinops.org/en/topics/countersign/",
+    "categories": [
+      "P2P Network Protocol",
+      "Security Enhancements",
+      "Privacy Enhancements"
+    ],
+    "aliases": null,
+    "excerpt": "**Countersign** is the idea for a protocol that will allow a client and server who have each other's public keys to negotiate authentication without either participant revealing any identifying information to third parties.\n"
+  },
+  {
+    "title": "Covenants",
+    "slug": "covenants",
+    "optech_url": "https://bitcoinops.org/en/topics/covenants/",
+    "categories": [
+      "Scripts and Addresses",
+      "Soft Forks"
+    ],
+    "aliases": null,
+    "excerpt": "**Covenants** are a category of proposed changes to Bitcoin's consensus rules that would allow a script to prevent an authorized spender from spending to certain other scripts.\n"
+  },
+  {
+    "title": "CPFP carve out",
+    "slug": "cpfp-carve-out",
+    "optech_url": "https://bitcoinops.org/en/topics/cpfp-carve-out/",
+    "categories": [
+      "Fee Management",
+      "Contract Protocols",
+      "Transaction Relay Policy"
+    ],
+    "aliases": null,
+    "excerpt": "**CPFP carve out** is a transaction relay policy implemented in Bitcoin Core that allows a single transaction to moderately exceed the node's maximum package size and depth limits if that transaction only has one unconfirmed ancestor.\n"
+  },
+  {
+    "title": "Cross-input signature aggregation (CISA)",
+    "slug": "cisa",
+    "optech_url": "https://bitcoinops.org/en/topics/cross-input-signature-aggregation/",
+    "categories": [
+      "Scripts and Addresses",
+      "Soft Forks"
+    ],
+    "aliases": [
+      "Half aggregation"
+    ],
+    "excerpt": "**Cross-input signature aggregation (CISA)** is a proposal to reduce the number of signatures a transaction requires.  In theory, every signature required to make a transaction valid could be combined into a single signature that covers the whole transaction.\n"
+  },
+  {
+    "title": "CVE-2018-17144",
+    "slug": "cve-2018-17144",
+    "optech_url": "https://bitcoinops.org/en/topics/cve-2018-17144/",
+    "categories": [
+      "Security Problems"
+    ],
+    "aliases": [
+      "Duplicate inputs vulnerability"
+    ],
+    "excerpt": "**CVE-2018-17144** was a bug that could have allowed an attacker to spend the same bitcoins more than once.\n"
+  },
+  {
+    "title": "CVEs (various)",
+    "slug": "cves",
+    "optech_url": "https://bitcoinops.org/en/topics/cve/",
+    "categories": [
+      "Security Problems"
+    ],
+    "aliases": [
+      "CVE-2012-2459",
+      "CVE-2013-2292",
+      "CVE-2015-3641",
+      "CVE-2015-6031",
+      "CVE-2017-12842",
+      "CVE-2017-18350",
+      "CVE-2018-17145",
+      "CVE-2020-14198",
+      "CVE-2020-26895",
+      "CVE-2020-26896",
+      "CVE-2021-31876",
+      "CVE-2023-39910"
+    ],
+    "excerpt": "**Common Vulnerabilities and Exposures (CVEs)** are serious vulnerabilities that have been cataloged to help developers, researchers, and the public efficiently share information about potential threats.\n"
+  },
+  {
+    "title": "Dandelion",
+    "slug": "dandelion",
+    "optech_url": "https://bitcoinops.org/en/topics/dandelion/",
+    "categories": [
+      "P2P Network Protocol",
+      "Privacy Enhancements"
+    ],
+    "aliases": [
+      "BIP156"
+    ],
+    "excerpt": "**Dandelion** is a privacy-enhancement proposal to allow transactions to first propagate serially from one node to one other node before being broadcast from one node to all of its peers.\n"
+  },
+  {
+    "title": "Default minimum transaction relay feerates",
+    "slug": "default-minimum-transaction-relay-feerates",
+    "optech_url": "https://bitcoinops.org/en/topics/default-minimum-transaction-relay-feerates/",
+    "categories": [
+      "Transaction Relay Policy",
+      "Fee Management",
+      "Mining"
+    ],
+    "aliases": null,
+    "excerpt": "**Default minimum transaction relay feerates** are the policy implemented by nodes for ignoring individual unconfirmed transactions whose feerate is below a certain amount.  For Bitcoin Core, this threshold has for several years been 1 sat/vbyte.\n"
+  },
+  {
+    "title": "Developer Tools (Miscellaneous)",
+    "slug": "developer-tools",
+    "categories": [
+      "Developer Tools"
+    ],
+    "excerpt": "A catch-all for information related to Developer Tools, covering content that doesn't fit neatly into specific topics."
+  },
+  {
+    "title": "Discreet Log Contracts (DLCs)",
+    "slug": "dlc",
+    "optech_url": "https://bitcoinops.org/en/topics/discreet-log-contracts/",
+    "categories": [
+      "Contract Protocols",
+      "Privacy Enhancements"
+    ],
+    "aliases": null,
+    "excerpt": "**Discreet Log Contracts (DLCs)** are a contract protocol where two or more parties agree to exchange money dependent on the outcome of a certain event as determined by an oracle (or several oracles). After the event happens, the oracle publishes a commitment to the outcome of the event that the winning party can use to claim their funds. The oracle doesn’t need to know the terms of the contract (or even that a contract was made).\n"
+  },
+  {
+    "title": "Discrete log equivalency (DLEQ)",
+    "slug": "dleq",
+    "optech_url": "https://bitcoinops.org/en/topics/discrete-log-equivalency/",
+    "categories": [
+      "Privacy Enhancements"
+    ],
+    "aliases": [
+      "Proofs of discrete log equivalency (PODLE)"
+    ],
+    "excerpt": "**Discrete log equivalency (DLEQ)** or **proofs of discrete log equivalency (PODLE)** is the ability to prove two points on an elliptic curve were both derived from the same private value (such as a private key).  Applications of it include committing to ownership of a key in the UTXO set without publicly revealing the specific UTXO and proving a silent payment output was constructed correctly without disclosing a private key.\n"
+  },
+  {
+    "title": "Dual funding",
+    "slug": "dual-funding",
+    "optech_url": "https://bitcoinops.org/en/topics/dual-funding/",
+    "categories": [
+      "Lightning Network",
+      "Liquidity Management"
+    ],
+    "aliases": [
+      "Interactive funding protocol"
+    ],
+    "excerpt": "**Dual funding** is creating a payment channel for LN where both parties can contribute funds.  The underlying protocol, called the *version 2 channel establishment protocol*, may also be used for negotiated opening of single-funded channels, but its motivating purpose is providing support for dual funding.\n"
+  },
+  {
+    "title": "Duplex micropayment channels",
+    "slug": "duplex-micropayment-channels",
+    "optech_url": "https://bitcoinops.org/en/topics/duplex-micropayment-channels/",
+    "categories": [
+      "Lightning Network",
+      "Contract Protocols"
+    ],
+    "aliases": null,
+    "excerpt": "**Duplex micropayment channels** are bi-directional micropayment channels that use deincrementing relative time locks to ensure the latest state is the first that can be confirmed.  Compared to bi-directional LN-Penalty channels, they allow a much more limited number of state updates but safely support more than two participants.\n"
+  },
+  {
+    "title": "Duplicate transactions",
+    "slug": "duplicate-transactions",
+    "optech_url": "https://bitcoinops.org/en/topics/duplicate-transactions/",
+    "categories": [
+      "Security Problems",
+      "Soft Forks"
+    ],
+    "aliases": [
+      "Block 1,983,702 problem"
+    ],
+    "excerpt": "**Duplicate transactions** are more than one transaction that are identical and have identical txids.  Bitcoin's consensus rules use txids to uniquely identify transactions, so duplicate transactions can cause unwanted behavior.\n"
+  },
+  {
+    "title": "Ecash",
+    "slug": "ecash",
+    "optech_url": "https://bitcoinops.org/en/topics/ecash/",
+    "categories": [
+      "Privacy Enhancements"
+    ],
+    "aliases": null,
+    "excerpt": "**Ecash** is a type of centralized digital currency that uses blind signatures to prevent the centralized controlling party (the mint) from knowing the balance of any particular user or from learning which users were involved in any transactions.\n"
+  },
+  {
+    "title": "Eclipse attacks",
+    "slug": "eclipse-attacks",
+    "optech_url": "https://bitcoinops.org/en/topics/eclipse-attacks/",
+    "categories": [
+      "P2P Network Protocol",
+      "Security Problems"
+    ],
+    "aliases": null,
+    "excerpt": "**Eclipse attacks** occur when a node is isolated from all honest peers but remains connected to at least one malicious peer.\n"
+  },
+  {
+    "title": "Eltoo",
+    "slug": "eltoo",
+    "optech_url": "https://bitcoinops.org/en/topics/eltoo/",
+    "categories": [
+      "Lightning Network",
+      "Contract Protocols"
+    ],
+    "aliases": [
+      "LN-Symmetry"
+    ],
+    "excerpt": "**Eltoo** (also called **LN-Symmetry**) is a proposed enforcement mechanism for LN that allows any later channel state to replace any earlier channel state.  Although eltoo can be used with a penalty mechanism similar to the one used with existing LN channels, eltoo doesn't need the penalty mechanism in order to be secure.\n"
+  },
+  {
+    "title": "Ephemeral anchors",
+    "slug": "ephemeral-anchors",
+    "optech_url": "https://bitcoinops.org/en/topics/ephemeral-anchors/",
+    "categories": [
+      "Contract Protocols",
+      "Fee Management",
+      "P2P Network Protocol"
+    ],
+    "aliases": [
+      "Pay-to-Anchor (P2A)",
+      "Ephemeral dust"
+    ],
+    "excerpt": "**Ephemeral anchors** are a proposal to allow some transactions to be relayed even if they don't pay any transaction fee, provided they're relayed as part of a package containing a child transaction which pays a fee sufficient for the entire package.\n"
+  },
+  {
+    "title": "Erlay",
+    "slug": "erlay",
+    "optech_url": "https://bitcoinops.org/en/topics/erlay/",
+    "categories": [
+      "P2P Network Protocol",
+      "Bandwidth Reduction"
+    ],
+    "aliases": null,
+    "excerpt": "**Erlay** is proposal to improve the bandwidth efficiency of relaying unconfirmed transactions between Bitcoin full nodes.\n"
+  },
+  {
+    "title": "Exfiltration-resistant signing",
+    "slug": "exfiltration-resistant-signing",
+    "optech_url": "https://bitcoinops.org/en/topics/exfiltration-resistant-signing/",
+    "categories": [
+      "Security Enhancements",
+      "Wallet Collaboration Tools"
+    ],
+    "aliases": null,
+    "excerpt": "**Exfiltration-resistant signing** is the process of creating signatures for Bitcoin transactions using a protocol that can be audited to ensure the signature doesn't contain any biased or otherwise manipulated elements that could be used to compromise the signer's private keys.\n"
+  },
+  {
+    "title": "Expiration floods",
+    "slug": "expiration-floods",
+    "optech_url": "https://bitcoinops.org/en/topics/expiration-floods/",
+    "categories": [
+      "Contract Protocols",
+      "Lightning Network",
+      "Security Problems",
+      "Security Enhancements"
+    ],
+    "aliases": [
+      "Forced expiration spam",
+      "Flood and loot"
+    ],
+    "excerpt": "**Expiration floods** occur when many timelock-contingent payments need to be settled onchain within a limited period of time.  If not all of the settlement transactions can fit into blocks before timelocks begin expiring, then not all of the contingent payments will resolve as expected, likely resulting in some users losing money.\n"
+  },
+  {
+    "title": "Fee estimation",
+    "slug": "fee-estimation",
+    "optech_url": "https://bitcoinops.org/en/topics/fee-estimation/",
+    "categories": [
+      "Fee Management"
+    ],
+    "aliases": null,
+    "excerpt": "**Fee estimation** is the process of estimating the feerate a transaction will need to pay to have a high probability of being confirmed within a certain number of blocks.\n"
+  },
+  {
+    "title": "Fee Management (Miscellaneous)",
+    "slug": "fee-management",
+    "categories": [
+      "Fee Management"
+    ],
+    "excerpt": "A catch-all for information related to Fee Management, covering content that doesn't fit neatly into specific topics."
+  },
+  {
+    "title": "Fee sniping",
+    "slug": "fee-sniping",
+    "optech_url": "https://bitcoinops.org/en/topics/fee-sniping/",
+    "categories": [
+      "Mining",
+      "Security Problems",
+      "Security Enhancements"
+    ],
+    "aliases": [
+      "Anti fee sniping"
+    ],
+    "excerpt": "**Fee sniping** occurs when a miner deliberately re-mines one or more previous blocks in order to take the fees from the miners who originally created those blocks.  Although re-mining a previous block is less likely to succeed than simply extending the chain with a new block, it can be more profitable if the previous block is worth much more in transaction fees than the transactions currently in the miner's mempool.\n"
+  },
+  {
+    "title": "Fee sourcing",
+    "slug": "fee-sourcing",
+    "optech_url": "https://bitcoinops.org/en/topics/fee-sourcing/",
+    "categories": [
+      "Contract Protocols",
+      "Fee Management"
+    ],
+    "aliases": [
+      "Exogenous fees",
+      "Endogenous fees"
+    ],
+    "excerpt": "**Fee sourcing** refers to the decisions made by designers of committed transactions (such as presigned transactions) about what sources of funds they'll use for paying transaction fees.  **Endogenous fees** are a fundamental part of a transaction or set of transactions. **Exogenous fees** are those which don't need to be paid for a transaction or set of transactions to be valid.\n"
+  },
+  {
+    "title": "Fee sponsorship",
+    "slug": "fee-sponsorship",
+    "optech_url": "https://bitcoinops.org/en/topics/fee-sponsorship/",
+    "categories": [
+      "Fee Management"
+    ],
+    "aliases": null,
+    "excerpt": "**Fee sponsorship** is a proposed consensus change to allow the creation of transactions which effectively add fees to other unrelated transactions, possibly helping those other transactions confirm faster.  It's enables CPFP-like fee bumping without the transactions needing to be related.\n"
+  },
+  {
+    "title": "Free relay",
+    "slug": "free-relay",
+    "optech_url": "https://bitcoinops.org/en/topics/free-relay/",
+    "categories": [
+      "P2P Network Protocol",
+      "Transaction Relay Policy"
+    ],
+    "aliases": null,
+    "excerpt": "**Free relay** was a policy on early Bitcoin full nodes to allow some unconfirmed transactions to be relayed even if they didn't pay transaction fees.  That policy allowed an attacker to waste the bandwidth of full nodes without paying any cost, so modern full nodes generally try to forbid operations which don't allow miners to claim fees that are proportionate to the amount of relay bandwidth used.\n"
+  },
+  {
+    "title": "Gap limits",
+    "slug": "gap-limits",
+    "optech_url": "https://bitcoinops.org/en/topics/gap-limits/",
+    "categories": [
+      "Backup and Recovery",
+      "Wallet Collaboration Tools"
+    ],
+    "aliases": null,
+    "excerpt": "**Gap limits** are the limits wallets set for how many addresses they'll derive from an HD wallet without seeing any transactions related to those addresses.\n"
+  },
+  {
+    "title": "Generic signmessage",
+    "slug": "generic-signmessage",
+    "optech_url": "https://bitcoinops.org/en/topics/generic-signmessage/",
+    "categories": [
+      "Wallet Collaboration Tools"
+    ],
+    "aliases": [
+      "Signmessage",
+      "BIP322"
+    ],
+    "excerpt": "**Generic signmessage** is a method that allows wallets to sign or partially sign a message for any script from which they could conceivably spend.\n"
+  },
+  {
+    "title": "Hardware wallet interface (HWI)",
+    "slug": "hwi",
+    "optech_url": "https://bitcoinops.org/en/topics/hwi/",
+    "categories": [
+      "Wallet Collaboration Tools"
+    ],
+    "aliases": null,
+    "excerpt": "**Hardware Wallet Interface (HWI)** is a Python library and command-line tool used to interface with hardware wallets using Partially-Signed Bitcoin Transactions (PSBTs) and output script descriptors.\n"
+  },
+  {
+    "title": "Hash Time Locked Contract (HTLC)",
+    "slug": "htlc",
+    "optech_url": "https://bitcoinops.org/en/topics/htlc/",
+    "categories": [
+      "Contract Protocols",
+      "Lightning Network"
+    ],
+    "aliases": null,
+    "excerpt": "**Hash Time Locked Contracts (HTLCs)** are conditional payments used in LN payment channels, cross-chain atomic swaps, same-chain coinswaps, zero-knowledge contingent payments, and other contract protocols.\n"
+  },
+  {
+    "title": "HD key generation",
+    "slug": "bip32",
+    "optech_url": "https://bitcoinops.org/en/topics/hd-key-generation/",
+    "categories": [
+      "Scripts and Addresses",
+      "Wallet Collaboration Tools"
+    ],
+    "aliases": [
+      "BIP32",
+      "HD wallets"
+    ],
+    "excerpt": "**HD key generation** as specified in **BIP32** allows securely creating an unlimited number of keypairs from a seed as small as 128 bits.  A wallet may also create extended pubkeys (xpubs) that allow external software to create new pubkeys for the wallet without learning the corresponding private keys.\n"
+  },
+  {
+    "title": "Hold invoices",
+    "slug": "hold-invoices",
+    "optech_url": "https://bitcoinops.org/en/topics/hold-invoices/",
+    "categories": [
+      "Lightning Network"
+    ],
+    "aliases": null,
+    "excerpt": "**Hold invoices** are LN invoices where the receiver doesn't immediately release the preimage upon receiving a payment.  Instead, the receiver performs some action and then either accepts the payment, explicitly rejects it, or lets it time out.\n"
+  },
+  {
+    "title": "HTLC endorsement",
+    "slug": "htlc-endorsement",
+    "optech_url": "https://bitcoinops.org/en/topics/htlc-endorsement/",
+    "categories": [
+      "Lightning Network"
+    ],
+    "aliases": null,
+    "excerpt": "**HTLC endorsement** is a reputation system proposed for LN.  When a node receives a payment (HTLC) from a channel counterparty for forwarding, that payment may be flagged as endorsed.  If forwarded HTLCs from that counterparty have been profitable in the past, the node may choose to pass on that endorsement when it forwards the HTLC to the next hop.\n"
+  },
+  {
+    "title": "Inbound forwarding fees",
+    "slug": "inbound-forwarding-fees",
+    "optech_url": "https://bitcoinops.org/en/topics/inbound-forwarding-fees/",
+    "categories": [
+      "Lightning Network"
+    ],
+    "aliases": null,
+    "excerpt": "**Inbound forwarding fees** are fees charged by an LN node for accepting a payment for forwarding.  The original LN protocol only specifies charging forwarding fees when a node relays the payment to its next hop (i.e., outbound forwarding fees).  Inbound forwarding fees, which can be negative, give a node more options for encouraging payments to route through channels they consider to be more liquid.\n"
+  },
+  {
+    "title": "Invoicing (Miscellaneous)",
+    "slug": "invoicing",
+    "categories": [
+      "Invoicing"
+    ],
+    "excerpt": "A catch-all for information related to Invoicing, covering content that doesn't fit neatly into specific topics."
+  },
+  {
+    "title": "Joinpools",
+    "slug": "joinpools",
+    "optech_url": "https://bitcoinops.org/en/topics/joinpools/",
+    "categories": [
+      "Contract Protocols",
+      "Fee Management",
+      "Privacy Enhancements"
+    ],
+    "aliases": [
+      "Payment pools",
+      "Coinpools"
+    ],
+    "excerpt": "**Joinpools** are a construction that allows multiple users to trustlessly share ownership of one or more UTXOs.  When funds are spent, it's not possible to tell from the block chain which pool member (or members) spent the funds.  Joinpools can use presigned transactions or proposed protocol features to ensure each member can unilaterally withdraw their funds from the pool at any time.\n"
+  },
+  {
+    "title": "Just-In-Time (JIT) channels",
+    "slug": "jit-channels",
+    "optech_url": "https://bitcoinops.org/en/topics/jit-channels/",
+    "categories": [
+      "Lightning Network",
+      "Liquidity Management"
+    ],
+    "aliases": null,
+    "excerpt": "**JIT channels** are virtual LN channels hosted by a service provider. When the first payment to the channel is received, the service provider creates a funding transaction and adds the payment to it, creating a normal channel.  This allows new user to begin receiving funds over LN immediately.\n"
+  },
+  {
+    "title": "Just-in-time (JIT) routing",
+    "slug": "jit-routing",
+    "optech_url": "https://bitcoinops.org/en/topics/jit-routing/",
+    "categories": [
+      "Lightning Network",
+      "Liquidity Management"
+    ],
+    "aliases": null,
+    "excerpt": "**Just-In-Time (JIT) routing** occurs when an LN routing node rebalances two or more of its channels so that it has enough funds to route a payment it would otherwise have to fail.  It is currently only a proposal.\n"
+  },
+  {
+    "title": "Kindred replace by fee",
+    "slug": "kindred-rbf",
+    "optech_url": "https://bitcoinops.org/en/topics/kindred-replace-by-fee/",
+    "categories": [
+      "Fee Management",
+      "Transaction Relay Policy"
+    ],
+    "aliases": [
+      "Sibling eviction"
+    ],
+    "excerpt": "**Kindred replace by fee** is the ability for a transaction to replace a related transaction in the mempool even if there’s no conflict between the two transactions.  The main form of it is **sibling eviction**, where one child of an unconfirmed transaction can replace a different child.\n"
+  },
+  {
+    "title": "Large channels",
+    "slug": "large-channels",
+    "optech_url": "https://bitcoinops.org/en/topics/large-channels/",
+    "categories": [
+      "Lightning Network"
+    ],
+    "aliases": [
+      "Wumbo"
+    ],
+    "excerpt": "**Large channels** are LN payment channels where both peers send the parameter `option_support_large_channel` and which can be funded with a balance over 0.16777216 BTC.\n"
+  },
+  {
+    "title": "Lightning Network (Miscellaneous)",
+    "slug": "lightning-network",
+    "categories": [
+      "Lightning Network"
+    ],
+    "excerpt": "A catch-all for information related to Lightning Network, covering content that doesn't fit neatly into specific topics."
+  },
+  {
+    "title": "Lightweight Client Support (Miscellaneous)",
+    "slug": "lightweight-client-support",
+    "categories": [
+      "Lightweight Client Support"
+    ],
+    "excerpt": "A catch-all for information related to Lightweight Client Support, covering content that doesn't fit neatly into specific topics."
+  },
+  {
+    "title": "Liquidity advertisements",
+    "slug": "liquidity-advertisements",
+    "optech_url": "https://bitcoinops.org/en/topics/liquidity-advertisements/",
+    "categories": [
+      "Lightning Network",
+      "Liquidity Management"
+    ],
+    "aliases": null,
+    "excerpt": "**Liquidity advertisements** are an experimental feature of LN that allows a node to publicize its willingness to contribute funds (liquidity) to a new channel requested by a remote peer.  The offering node specifies the duration of time they'll lease the liquidity and the amount they'll charge for it; the purchasing peer pays the lease fee using a dual-funded channel open.\n"
+  },
+  {
+    "title": "Liquidity Management (Miscellaneous)",
+    "slug": "liquidity-management",
+    "categories": [
+      "Liquidity Management"
+    ],
+    "excerpt": "A catch-all for information related to Liquidity Management, covering content that doesn't fit neatly into specific topics."
+  },
+  {
+    "title": "LN-Penalty",
+    "slug": "ln-penalty",
+    "optech_url": "https://bitcoinops.org/en/topics/ln-penalty/",
+    "categories": [
+      "Lightning Network",
+      "Contract Protocols"
+    ],
+    "aliases": null,
+    "excerpt": "**LN-Penalty** is a state protocol that penalizes a party who publishes a past state by allowing their funds to be seized by their counterparty.  The protocol is most widely used as the payment channel protocol (PCP) at the heart of the original (and still only fully developed) version of LN.  It is also used to manage state for repeated off-chain DLCs between two parties.\n"
+  },
+  {
+    "title": "LNURL",
+    "slug": "lnurl",
+    "optech_url": "https://bitcoinops.org/en/topics/lnurl/",
+    "categories": [
+      "Lightning Network",
+      "Invoicing"
+    ],
+    "aliases": [
+      "Lightning Addresses"
+    ],
+    "excerpt": "**LNURL** is a set of protocols for communicating information using URLs and HTTPS.  Perhaps the most common use of LNURL is transferring BOLT11 invoices.  A related protocol is **Lightning Addresses** which allow transforming a static identifier that looks like an RFC822 email address into a BOLT11 invoice.\n"
+  },
+  {
+    "title": "Low-r grinding",
+    "slug": "low-r-grinding",
+    "optech_url": "https://bitcoinops.org/en/topics/low-r-grinding/",
+    "categories": [
+      "Bandwidth Reduction",
+      "Fee Management"
+    ],
+    "aliases": [
+      "Signature grinding"
+    ],
+    "excerpt": "**Low-r grinding** is an optimization for wallets where they keep generating new ECDSA signatures for the same transaction until the find a signature whose *r* value is on the lower half of the range, allowing it to be encoded with one fewer byte than a signature on the top half of the range.\n"
+  },
+  {
+    "title": "MAST",
+    "slug": "mast",
+    "optech_url": "https://bitcoinops.org/en/topics/mast/",
+    "categories": [
+      "Soft Forks",
+      "Scripts and Addresses",
+      "Privacy Enhancements"
+    ],
+    "aliases": null,
+    "excerpt": "**MAST** is a method of using a merkle tree to store the various user-selected conditions that must be fulfilled in order for the encumbered bitcoins to be spent.  Using a merkle tree allows the spender to select which one of the conditions they'll fulfill without having to reveal the details of other conditions to the block chain.\n"
+  },
+  {
+    "title": "MATT",
+    "slug": "matt",
+    "optech_url": "https://bitcoinops.org/en/topics/matt/",
+    "categories": [
+      "Soft Forks"
+    ],
+    "aliases": [
+      "OP_CHECKCONTRACTVERIFY"
+    ],
+    "excerpt": "**MATT** is a soft fork proposal that would add an `OP_CHECKCONTRACTVERIFY` opcode to Bitcoin's script language and make some other changes that would allow limited transaction introspection.  This could allow verification of arbitrary programs in contract protocols plus support the implementation of several covenant-based features.\n"
+  },
+  {
+    "title": "Merkle tree vulnerabilities",
+    "slug": "merkle-tree-vulnerabilities",
+    "optech_url": "https://bitcoinops.org/en/topics/merkle-tree-vulnerabilities/",
+    "categories": [
+      "Security Problems"
+    ],
+    "aliases": null,
+    "excerpt": "**Merkle tree vulnerabilities** are a class of problems in the design of the merkle tree used by the Bitcoin consensus protocol.\n"
+  },
+  {
+    "title": "Mining (Miscellaneous)",
+    "slug": "mining",
+    "categories": [
+      "Mining"
+    ],
+    "excerpt": "A catch-all for information related to Mining, covering content that doesn't fit neatly into specific topics."
+  },
+  {
+    "title": "Miniscript",
+    "slug": "miniscript",
+    "optech_url": "https://bitcoinops.org/en/topics/miniscript/",
+    "categories": [
+      "Scripts and Addresses",
+      "Wallet Collaboration Tools",
+      "Developer Tools"
+    ],
+    "aliases": null,
+    "excerpt": "**Miniscript** allows software to automatically analyze a script, including determining what witness data must be generated in order to spend bitcoins protected by that script.  With miniscript telling the wallet what it needs to do, wallet developers don't need to write new code when they switch from one script template to another.\n"
+  },
+  {
+    "title": "Minisketch",
+    "slug": "minisketch",
+    "optech_url": "https://bitcoinops.org/en/topics/minisketch/",
+    "categories": [
+      "Developer Tools"
+    ],
+    "aliases": [
+      "Libminisketch"
+    ],
+    "excerpt": "**Minisketch** is a library implementing an algorithm that allows efficient set reconcilliation of announcements in gossip protocols, such as those used in Bitcoin and LN.\n"
+  },
+  {
+    "title": "Multipath payments",
+    "slug": "multipath-payments",
+    "optech_url": "https://bitcoinops.org/en/topics/multipath-payments/",
+    "categories": [
+      "Lightning Network"
+    ],
+    "aliases": [
+      "Multipart payments",
+      "Simplified multipath payments",
+      "Base AMP"
+    ],
+    "excerpt": "**Simplified Multipath Payments (SMPs)**, also called **Base AMP**, are LN payments that are split into two or more parts all sharing the same hash and preimage, and which are sent using a different path for each part.\n"
+  },
+  {
+    "title": "MuSig",
+    "slug": "musig",
+    "optech_url": "https://bitcoinops.org/en/topics/musig/",
+    "categories": [
+      "Scripts and Addresses"
+    ],
+    "aliases": null,
+    "excerpt": "**MuSig** is a protocol for aggregating public keys and signatures for the schnorr digital signature algorithm.\n"
+  },
+  {
+    "title": "Offers",
+    "slug": "offers",
+    "optech_url": "https://bitcoinops.org/en/topics/offers/",
+    "categories": [
+      "Lightning Network",
+      "Invoicing",
+      "Wallet Collaboration Tools"
+    ],
+    "aliases": [
+      "BOLT12"
+    ],
+    "excerpt": "**Offers** is a proposed protocol enhancement for Lightning that would allow nodes to request and receive invoices over LN.\n"
+  },
+  {
+    "title": "Onion messages",
+    "slug": "onion-messages",
+    "optech_url": "https://bitcoinops.org/en/topics/onion-messages/",
+    "categories": [
+      "Lightning Network"
+    ],
+    "aliases": null,
+    "excerpt": "**Onion messages** are messages that can be sent across the LN network by nodes that support the protocol.  Messages don't use HTLCs, minimizing the use of LN node resources.\n"
+  },
+  {
+    "title": "OP_CAT",
+    "slug": "op-cat",
+    "optech_url": "https://bitcoinops.org/en/topics/op_cat/",
+    "categories": [
+      "Scripts and Addresses",
+      "Soft Forks"
+    ],
+    "aliases": null,
+    "excerpt": "**OP_CAT** was originally an opcode in Bitcoin.  It was disabled in 2010 but slight variations on it are frequently proposed to be added to Bitcoin using a soft fork.\n"
+  },
+  {
+    "title": "OP_CHECKSIGFROMSTACK",
+    "slug": "op-checksigfromstack",
+    "optech_url": "https://bitcoinops.org/en/topics/op_checksigfromstack/",
+    "categories": [
+      "Scripts and Addresses",
+      "Soft Forks"
+    ],
+    "aliases": null,
+    "excerpt": "**OP_CHECKSIGFROMSTACK (OP_CSFS)** is an opcode on ElementsProject.org-based sidechains that is sometimes proposed for implementation on Bitcoin.  The opcode allows checking whether a signature signs an arbitrary message.  The opcode takes three parameters: a signature, a message, and a public key.\n"
+  },
+  {
+    "title": "OP_CHECKTEMPLATEVERIFY",
+    "slug": "op-checktemplateverify",
+    "optech_url": "https://bitcoinops.org/en/topics/op_checktemplateverify/",
+    "categories": [
+      "Scripts and Addresses",
+      "Soft Forks",
+      "Fee Management"
+    ],
+    "aliases": null,
+    "excerpt": "**OP_CHECKTEMPLATEVERIFY (CTV)** is a proposed new opcode that takes a commitment and requires any transaction executing the opcode to match the commitment in the following fields: its version, locktime, signature scripts, number of inputs, sequences, number of outputs, outputs, and the location of the input being spent within the spending transaction.  This allows an output to specify how its funds may be spent---a design known in Bitcoin as a *covenant*.\n"
+  },
+  {
+    "title": "OP_CODESEPARATOR",
+    "slug": "op-codeseparator",
+    "optech_url": "https://bitcoinops.org/en/topics/op_codeseparator/",
+    "categories": [
+      "Scripts and Addresses"
+    ],
+    "aliases": null,
+    "excerpt": "**OP_CODESEPARATOR** is an opcode that changes what data is used when a signature commits to a script.  The opcode has been available since the original version of Bitcoin Script, but its use and behavior have changed over time (with further changes having been proposed).\n"
+  },
+  {
+    "title": "Out-of-band fees",
+    "slug": "out-of-band-fees",
+    "optech_url": "https://bitcoinops.org/en/topics/out-of-band-fees/",
+    "categories": [
+      "Fee Management",
+      "Security Problems"
+    ],
+    "aliases": null,
+    "excerpt": "**Out-of-band fees** are payments made directly to a specific miner (or group of miners) in exchange for confirming one or more transactions.  They can be contrasted with standard in-band fees that are paid using the fee implied by the difference in a transaction's input and output value.\n"
+  },
+  {
+    "title": "Output linking",
+    "slug": "output-linking",
+    "optech_url": "https://bitcoinops.org/en/topics/output-linking/",
+    "categories": [
+      "Privacy Enhancements",
+      "Privacy Problems",
+      "Security Problems"
+    ],
+    "aliases": [
+      "Address reuse",
+      "Dust attacks",
+      "Reuse avoidance"
+    ],
+    "excerpt": "**Output linking,** also called **address reuse,** occurs when a user receives two or more payments to the same public key or other unique script element.  This may happen because the user reuses an address out of ignorance or as the result of deliberate targeting, as in a **dust attack.**  Methods for limiting the loss of privacy from output linking fall under the category of **reuse avoidance.**\n"
+  },
+  {
+    "title": "Output script descriptors",
+    "slug": "descriptors",
+    "optech_url": "https://bitcoinops.org/en/topics/output-script-descriptors/",
+    "categories": [
+      "Scripts and Addresses",
+      "Wallet Collaboration Tools"
+    ],
+    "aliases": [
+      "Descriptors"
+    ],
+    "excerpt": "**Output script descriptors** are strings that contain all the information necessary to allow a wallet or other program to track payments made to or spent from a particular script or set of related scripts (i.e. an address or a set of related addresses such as in an HD wallet).\n"
+  },
+  {
+    "title": "P2P Network Protocol (Miscellaneous)",
+    "slug": "p2p-network-protocol",
+    "categories": [
+      "P2P Network Protocol"
+    ],
+    "excerpt": "A catch-all for information related to P2P Network Protocol, covering content that doesn't fit neatly into specific topics."
+  },
+  {
+    "title": "Package relay",
+    "slug": "package-relay",
+    "optech_url": "https://bitcoinops.org/en/topics/package-relay/",
+    "categories": [
+      "Fee Management",
+      "Transaction Relay Policy"
+    ],
+    "aliases": [
+      "BIP331"
+    ],
+    "excerpt": "**Package relay** is a proposed feature for Bitcoin relay nodes that would allow them to send and receive packages of related transactions which would be accepted or rejected based on the feerate of the overall package rather than having each individual transaction in the package accepted or rejected based only on its own feerate.\n"
+  },
+  {
+    "title": "Partially signed bitcoin transactions",
+    "slug": "psbt",
+    "optech_url": "https://bitcoinops.org/en/topics/psbt/",
+    "categories": [
+      "Wallet Collaboration Tools"
+    ],
+    "aliases": [
+      "BIP174",
+      "PSBT"
+    ],
+    "excerpt": "**Partially Signed Bitcoin Transactions (PSBTs)** are a data format that allows wallets and other tools to exchange information about a Bitcoin transaction and the signatures necessary to complete it.\n"
+  },
+  {
+    "title": "Pay-to-Contract (P2C) protocols",
+    "slug": "p2c",
+    "optech_url": "https://bitcoinops.org/en/topics/pay-to-contract-outputs/",
+    "categories": [
+      "Privacy Enhancements",
+      "Scripts and Addresses"
+    ],
+    "aliases": null,
+    "excerpt": "**Pay-to-contract protocols** allow a spender and a receiver to agree on the text of a contract (or anything else) and then create a public key that commits to that text.  The spender can then later demonstrate that the payment committed to that text and that it would've been computationally infeasible for that commitment to have been made without the cooperation of the receiver.  In short, P2C allows the spender to prove to a court or the public what they paid for.\n"
+  },
+  {
+    "title": "Payjoin",
+    "slug": "payjoin",
+    "optech_url": "https://bitcoinops.org/en/topics/payjoin/",
+    "categories": [
+      "Privacy Enhancements"
+    ],
+    "aliases": [
+      "Pay-to-EndPoint",
+      "Bustapay",
+      "BIP79"
+    ],
+    "excerpt": "**Payjoin** is a technique for paying someone while including one of their inputs in the payment in order to enhance the privacy of the spender, the receiver, and Bitcoin users in general.  The general idea is also known under the names Pay-to-EndPoint (P2EP) and Bustapay.\n"
+  },
+  {
+    "title": "Payment batching",
+    "slug": "payment-batching",
+    "optech_url": "https://bitcoinops.org/en/topics/payment-batching/",
+    "categories": [
+      "Fee Management"
+    ],
+    "aliases": [
+      "Batching"
+    ],
+    "excerpt": "**Payment batching** is the technique of including multiple payments in the same onchain transaction.  This splits the cost of creating a transaction, spending inputs, and creating a change output across all the payments in the transaction, reducing the average cost per payment.\n"
+  },
+  {
+    "title": "Payment probes",
+    "slug": "payment-probes",
+    "optech_url": "https://bitcoinops.org/en/topics/payment-probes/",
+    "categories": [
+      "Lightning Network",
+      "Privacy Problems"
+    ],
+    "aliases": [
+      "Probing"
+    ],
+    "excerpt": "**Payment probes** are packets designed to discover information about the LN channels they travel through, such as whether the channel can currently handle a payment of a certain size or how many bitcoins are allocated to each participant in the channel.  Probes use the regular payment (HTLC) mechanism but are designed to always fail, preventing any funds from being transfered.  Probing can be useful, but it can also reduce user privacy.\n"
+  },
+  {
+    "title": "Payment secrets",
+    "slug": "payment-secrets",
+    "optech_url": "https://bitcoinops.org/en/topics/payment-secrets/",
+    "categories": [
+      "Lightning Network",
+      "Privacy Enhancements"
+    ],
+    "aliases": null,
+    "excerpt": "**Payment secrets** are extra data added to BOLT11 invoices that spenders include in their BOLT4 onion-encrypted payments.  This allows the receiver to only accept a payment from the intended spender, preventing a probing attack against the receiver when simplified multipath payments are being used.\n"
+  },
+  {
+    "title": "Peer storage",
+    "slug": "peer-storage",
+    "optech_url": "https://bitcoinops.org/en/topics/peer-storage/",
+    "categories": [
+      "Backup and Recovery",
+      "Lightning Network"
+    ],
+    "aliases": null,
+    "excerpt": "**Peer storage** is an optional service where a node accepts a small amount of frequently-updated encrypted data from its peers (especially channel counterparties).  It provides the latest version of that data back to the peer upon request, such as connection reestablishment.  The data can be a backup of the peer's latest channel state, allowing them to resume using a channel even if they lost their local state.\n"
+  },
+  {
+    "title": "Point Time Locked Contracts (PTLCs)",
+    "slug": "ptlc",
+    "optech_url": "https://bitcoinops.org/en/topics/ptlc/",
+    "categories": [
+      "Contract Protocols",
+      "Lightning Network",
+      "Privacy Enhancements"
+    ],
+    "aliases": null,
+    "excerpt": "**Point Time Locked Contracts (PTLCs)** are conditional payments that can replace the use of HTLCs in LN payment channels, same-chain coinswaps, some cross-chain atomic swaps, and other contract protocols.  Compared to HTLCs, they can be more private and use less block space.\n"
+  },
+  {
+    "title": "Pooled mining",
+    "slug": "pooled-mining",
+    "optech_url": "https://bitcoinops.org/en/topics/pooled-mining/",
+    "categories": [
+      "Mining"
+    ],
+    "aliases": [
+      "Betterhash",
+      "Braidpool",
+      "Stratum",
+      "Stratum v2"
+    ],
+    "excerpt": "**Pooled mining** occurs when two or more independent miners collaborate on finding proof of work for new blocks, with them fairly dividing the rewards of any blocks they find.  **Betterhash**, **Braidpool**, **Stratum**, and **Stratum v2** are protocols for coordinating pooled mining.\n"
+  },
+  {
+    "title": "Privacy Enhancements (Miscellaneous)",
+    "slug": "privacy-enhancements",
+    "categories": [
+      "Privacy Enhancements"
+    ],
+    "excerpt": "A catch-all for information related to Privacy Enhancements, covering content that doesn't fit neatly into specific topics."
+  },
+  {
+    "title": "Privacy Problems (Miscellaneous)",
+    "slug": "privacy-problems",
+    "categories": [
+      "Privacy Problems"
+    ],
+    "excerpt": "A catch-all for information related to Privacy Problems, covering content that doesn't fit neatly into specific topics."
+  },
+  {
+    "title": "Proof of payment",
+    "slug": "proof-of-payment",
+    "optech_url": "https://bitcoinops.org/en/topics/proof-of-payment/",
+    "categories": [
+      "Contract Protocols",
+      "Lightning Network"
+    ],
+    "aliases": null,
+    "excerpt": "**Proof of payment** is a cryptographic proof that a payment was made. The proof may indicate the identity (such as public key) of the payer and the recipient, and it may commit to additional payment details (such as a detailed invoice), but not all types of proofs provide those features.\n"
+  },
+  {
+    "title": "Proof of reserves",
+    "slug": "proof-of-reserves",
+    "optech_url": "https://bitcoinops.org/en/topics/proof-of-reserves/",
+    "categories": [
+      "Security Enhancements",
+      "Wallet Collaboration Tools"
+    ],
+    "aliases": null,
+    "excerpt": "**Proof of reserves** are a timestamped commitment to a distribution of funds signed by the entity who controls those funds.\n"
+  },
+  {
+    "title": "Quantum resistance",
+    "slug": "quantum-resistance",
+    "optech_url": "https://bitcoinops.org/en/topics/quantum-resistance/",
+    "categories": [
+      "Security Enhancements"
+    ],
+    "aliases": [
+      "Post-quantum cryptography"
+    ],
+    "excerpt": "**Quantum resistance** is the ability for cryptographic protocols to remain secure in the presence of fast quantum computers.\n"
+  },
+  {
+    "title": "Redundant overpayments",
+    "slug": "redundant-overpayments",
+    "optech_url": "https://bitcoinops.org/en/topics/redundant-overpayments/",
+    "categories": [
+      "Lightning Network"
+    ],
+    "aliases": [
+      "Stuckless payments",
+      "Boomerang payments"
+    ],
+    "excerpt": "**Redundant overpayments** are LN payments split into parts where the spender sends a greater amount and more parts than necessary to pay the receiver's invoice.\n"
+  },
+  {
+    "title": "Rendez-vous routing",
+    "slug": "rv-routing",
+    "optech_url": "https://bitcoinops.org/en/topics/rendez-vous-routing/",
+    "categories": [
+      "Lightning Network",
+      "Privacy Enhancements"
+    ],
+    "aliases": [
+      "Hidden destinations",
+      "Blinded paths",
+      "Route blinding"
+    ],
+    "excerpt": "**Rendez-vous routing**, **hidden destinations**, and **blinded paths** are names for techniques that allow an LN node to send a payment to an unannounced node without learning where that node is in the network topology or what channels it shares with other nodes.\n"
+  },
+  {
+    "title": "Replace-by-fee (RBF)",
+    "slug": "rbf",
+    "optech_url": "https://bitcoinops.org/en/topics/replace-by-fee/",
+    "categories": [
+      "Fee Management",
+      "Transaction Relay Policy",
+      "Mining"
+    ],
+    "aliases": [
+      "BIP125",
+      "Opt-in Replace-by-Fee",
+      "Full-RBF"
+    ],
+    "excerpt": "**Replace-By-Fee (RBF)** is a node policy that allows an unconfirmed transaction in a mempool to be replaced with a different transaction that spends at least one of the same inputs and which pays a higher transaction fee.\n"
+  },
+  {
+    "title": "Replacement cycling",
+    "slug": "replacement-cycling",
+    "optech_url": "https://bitcoinops.org/en/topics/replacement-cycling/",
+    "categories": [
+      "Contract Protocols",
+      "Lightning Network",
+      "Security Problems",
+      "Transaction Relay Policy"
+    ],
+    "aliases": null,
+    "excerpt": "**Replacement cycling** is an attack against CPFP fee bumps and transactions using `SIGHASH_SINGLE` that allows an attacker to remove an unconfirmed transaction from the mempools of relaying full nodes without leaving an alternative transaction in its place.  It mainly affects multiparty transactions that depend on CPFP fee bumps, such as those used in LN.\n"
+  },
+  {
+    "title": "Reproducible builds",
+    "slug": "reproducible-builds",
+    "optech_url": "https://bitcoinops.org/en/topics/reproducible-builds/",
+    "categories": [
+      "Security Enhancements"
+    ],
+    "aliases": [
+      "Gitian",
+      "Guix"
+    ],
+    "excerpt": "**Reproducible builds** are software that was compiled deterministically, making it possible for multiple people to compile the same source code into identical binaries.\n"
+  },
+  {
+    "title": "Responsible disclosures",
+    "slug": "responsible-disclosures",
+    "optech_url": "https://bitcoinops.org/en/topics/responsible-disclosures/",
+    "categories": [
+      "Security Problems"
+    ],
+    "aliases": null,
+    "excerpt": "**Responsible disclosures** were occasions when someone discovered a vulnerability in Bitcoin-related software and reported it to developers, affected users, and the public in a way that helped minimize harm.\n"
+  },
+  {
+    "title": "Schnorr signatures",
+    "slug": "schnorr-signatures",
+    "optech_url": "https://bitcoinops.org/en/topics/schnorr-signatures/",
+    "categories": [
+      "Soft Forks",
+      "Scripts and Addresses"
+    ],
+    "aliases": null,
+    "excerpt": "**Schnorr signatures** are digital signatures that provide similar security to the ECDSA scheme used since Bitcoin's original implementation and which can use Bitcoin's same elliptic curve parameters, but which can provide other benefits.\n"
+  },
+  {
+    "title": "Scriptless multisignatures",
+    "slug": "multisignature",
+    "optech_url": "https://bitcoinops.org/en/topics/multisignature/",
+    "categories": [
+      "Privacy Enhancements",
+      "Fee Management"
+    ],
+    "aliases": [
+      "2pECDSA",
+      "Two-Party ECDSA (2pECDSA)"
+    ],
+    "excerpt": "**Scriptless multisignatures** are digital signatures created using two or more private keys which can be verified using only a single public key and a single signature.\n"
+  },
+  {
+    "title": "Scripts and Addresses (Miscellaneous)",
+    "slug": "scripts-and-addresses",
+    "categories": [
+      "Scripts and Addresses"
+    ],
+    "excerpt": "A catch-all for information related to Scripts and Addresses, covering content that doesn't fit neatly into specific topics."
+  },
+  {
+    "title": "Security Enhancements (Miscellaneous)",
+    "slug": "security-enhancements",
+    "categories": [
+      "Security Enhancements"
+    ],
+    "excerpt": "A catch-all for information related to Security Enhancements, covering content that doesn't fit neatly into specific topics."
+  },
+  {
+    "title": "Security Problems (Miscellaneous)",
+    "slug": "security-problems",
+    "categories": [
+      "Security Problems"
+    ],
+    "excerpt": "A catch-all for information related to Security Problems, covering content that doesn't fit neatly into specific topics."
+  },
+  {
+    "title": "Segregated witness",
+    "slug": "segwit",
+    "optech_url": "https://bitcoinops.org/en/topics/segregated-witness/",
+    "categories": [
+      "Soft Forks"
+    ],
+    "aliases": null,
+    "excerpt": "**Segregated witness** (segwit) was a soft fork that activated in 2017.\n"
+  },
+  {
+    "title": "Side channels",
+    "slug": "side-channels",
+    "optech_url": "https://bitcoinops.org/en/topics/side-channels/",
+    "categories": [
+      "Security Problems",
+      "Security Enhancements"
+    ],
+    "aliases": null,
+    "excerpt": "**Side channels** are weaknesses in security protocols that arise from flaws in the hardware and software used to implement the protocol, rather than from flaws in the protocol's algorithms.\n"
+  },
+  {
+    "title": "Sidechains",
+    "slug": "sidechains",
+    "optech_url": "https://bitcoinops.org/en/topics/sidechains/",
+    "categories": [
+      "Contract Protocols"
+    ],
+    "aliases": null,
+    "excerpt": "**Sidechains** (also called **two-way pegged sidechains**) are block chains whose native unit of currency is the same as another block chain.\n"
+  },
+  {
+    "title": "SIGHASH_ANYPREVOUT",
+    "slug": "sighash-anyprevout",
+    "optech_url": "https://bitcoinops.org/en/topics/sighash_anyprevout/",
+    "categories": [
+      "Soft Forks",
+      "Scripts and Addresses"
+    ],
+    "aliases": [
+      "SIGHASH_NOINPUT"
+    ],
+    "excerpt": "**SIGHASH\\_ANYPREVOUT**, an updated version of SIGHASH\\_NOINPUT, is a proposal for a signature hash (sighash) where the identifier for the UTXO being spent is not signed, allowing the signature to be used with any UTXO that's protected by a similar script (i.e. uses the same public keys).\n"
+  },
+  {
+    "title": "Signer delegation",
+    "slug": "signer-delegation",
+    "optech_url": "https://bitcoinops.org/en/topics/signer-delegation/",
+    "categories": [
+      "Contract Protocols",
+      "Scripts and Addresses"
+    ],
+    "aliases": [
+      "Delegation"
+    ],
+    "excerpt": "**Signer delegation** is the ability for authorized spender Alice to allow third-party Bob to spend her UTXO without Alice giving away her private key, creating an onchain transaction, or knowing Bob's public key in advance.\n"
+  },
+  {
+    "title": "Signet",
+    "slug": "signet",
+    "optech_url": "https://bitcoinops.org/en/topics/signet/",
+    "categories": [
+      "Developer Tools"
+    ],
+    "aliases": null,
+    "excerpt": "**Signet** is both a tool that allows developers to create networks for testing interactions between different Bitcoin software and the name of the most popular of these testing networks.\n"
+  },
+  {
+    "title": "Silent payments",
+    "slug": "silent-payments",
+    "optech_url": "https://bitcoinops.org/en/topics/silent-payments/",
+    "categories": [
+      "Privacy Enhancements"
+    ],
+    "aliases": null,
+    "excerpt": "**Silent payments** are a type of payment that can be made to a unique onchain address for every payment even though the receiver provided the spender with a reusable (offchain) address.  This helps improve privacy.\n"
+  },
+  {
+    "title": "Simple taproot channels",
+    "slug": "simple-taproot-channels",
+    "optech_url": "https://bitcoinops.org/en/topics/simple-taproot-channels/",
+    "categories": [
+      "Lightning Network"
+    ],
+    "aliases": null,
+    "excerpt": "**Simple taproot channels** are LND funding and commitment transactions that use taproot (P2TR) with support for MuSig2 scriptless multisignature signing when both parties are cooperating. This reduces transaction weight space and improves privacy when channels are closed cooperatively.\n"
+  },
+  {
+    "title": "Simplicity",
+    "slug": "simplicity",
+    "optech_url": "https://bitcoinops.org/en/topics/simplicity/",
+    "categories": [
+      "Scripts and Addresses",
+      "Soft Forks"
+    ],
+    "aliases": null,
+    "excerpt": "**Simplicity** is a work-in-progress low-level programming language with greater flexibility and expressiveness than Bitcoin Script. It allows you to verify the safety, security and costs of a program. It also offers native merklized scripting, formal semantics and type checking. To use Simplicity on Bitcoin will require a soft fork and such a proposal has not yet been made.  Currently there is Simplicity support for test branches of the ElementsProject.org and Bitcoin Core codebases.\n"
+  },
+  {
+    "title": "Soft fork activation",
+    "slug": "soft-fork-activation",
+    "optech_url": "https://bitcoinops.org/en/topics/soft-fork-activation/",
+    "categories": [
+      "Consensus Enforcement",
+      "Soft Forks"
+    ],
+    "aliases": [
+      "BIP8",
+      "BIP9"
+    ],
+    "excerpt": "**Soft fork activation** describes the moment when a Bitcoin full node begins to enforce one or more additional consensus rules. These transitions introduce a coordination risk between nodes on the network, so developers have devoted much effort over the years to creating and improving soft fork activation mechanisms that can minimize the chance a problem will occur.\n"
+  },
+  {
+    "title": "Soft Forks (Miscellaneous)",
+    "slug": "soft-forks",
+    "categories": [
+      "Soft Forks"
+    ],
+    "excerpt": "A catch-all for information related to Soft Forks, covering content that doesn't fit neatly into specific topics."
+  },
+  {
+    "title": "Splicing",
+    "slug": "splicing",
+    "optech_url": "https://bitcoinops.org/en/topics/splicing/",
+    "categories": [
+      "Lightning Network",
+      "Liquidity Management"
+    ],
+    "aliases": null,
+    "excerpt": "**Splicing** is the act of transferring funds from onchain outputs into a payment channel, or from a payment channel to independent onchain outputs, without the channel participants having to wait for a confirmation delay to spend the channel's other funds.\n"
+  },
+  {
+    "title": "Spontaneous payments",
+    "slug": "spontaneous-payments",
+    "optech_url": "https://bitcoinops.org/en/topics/spontaneous-payments/",
+    "categories": [
+      "Lightning Network"
+    ],
+    "aliases": [
+      "Keysend"
+    ],
+    "excerpt": "**Spontaneous payments** is the ability of one LN node to pay another node without receiving an invoice first.  As of 2022, this is commonly accomplished using **keysend** payments.\n"
+  },
+  {
+    "title": "Statechains",
+    "slug": "statechains",
+    "optech_url": "https://bitcoinops.org/en/topics/statechains/",
+    "categories": [
+      "Contract Protocols"
+    ],
+    "aliases": null,
+    "excerpt": "**Statechains** are a proposed offchain system for allowing a user (such as Alice) to delegate the ability to spend a UTXO to another user (Bob), who can then further delegate the spending authority to a third user (Carol), etc.\n"
+  },
+  {
+    "title": "Stateless invoices",
+    "slug": "stateless-invoices",
+    "optech_url": "https://bitcoinops.org/en/topics/stateless-invoices/",
+    "categories": [
+      "Lightning Network"
+    ],
+    "aliases": null,
+    "excerpt": "**Stateless invoices** are LN invoices whose payment preimage is generated deterministically from payment metadata.  This allows the receiver of a payment to avoid storing any data about the invoice until the spender submits a copy of the metadata along with the payment.\n"
+  },
+  {
+    "title": "Static channel backups",
+    "slug": "static-channel-backups",
+    "optech_url": "https://bitcoinops.org/en/topics/static-channel-backups/",
+    "categories": [
+      "Lightning Network",
+      "Backup and Recovery"
+    ],
+    "aliases": null,
+    "excerpt": "**Static channel backups** are backup files that only need to be updated when an LN node opens or closes a new channel.  In case of data loss, they allow the node to attempt to get the latest channel state from their remote peer.\n"
+  },
+  {
+    "title": "Submarine swaps",
+    "slug": "submarine-swaps",
+    "optech_url": "https://bitcoinops.org/en/topics/submarine-swaps/",
+    "categories": [
+      "Lightning Network",
+      "Liquidity Management"
+    ],
+    "aliases": null,
+    "excerpt": "**Submarine swaps** are trust-minimized atomic swaps of offchain bitcoins for onchain bitcoins.  A payment secured by an HTLC is routed over LN to a service provider who creates an onchain output paying the same HTLC.  The onchain receiver can settle the HTLC to claim its funds, allowing the LN HTLCs to be settled like normal.\n"
+  },
+  {
+    "title": "Taproot",
+    "slug": "taproot",
+    "optech_url": "https://bitcoinops.org/en/topics/taproot/",
+    "categories": [
+      "Soft Forks",
+      "Scripts and Addresses",
+      "Privacy Enhancements"
+    ],
+    "aliases": null,
+    "excerpt": "**Taproot** is a proposed soft fork change to Bitcoin that will allow payments to schnorr public keys that may optionally commit to a script that can be revealed at spend time.\n"
+  },
+  {
+    "title": "Tapscript",
+    "slug": "tapscript",
+    "optech_url": "https://bitcoinops.org/en/topics/tapscript/",
+    "categories": [
+      "Soft Forks",
+      "Scripts and Addresses"
+    ],
+    "aliases": null,
+    "excerpt": "**Tapscript** is the scripting language used for taproot script-path spends.\n"
+  },
+  {
+    "title": "Testnet",
+    "slug": "testnet",
+    "optech_url": "https://bitcoinops.org/en/topics/testnet/",
+    "categories": [
+      "Developer Tools"
+    ],
+    "aliases": [
+      "Testnet3",
+      "Testnet4"
+    ],
+    "excerpt": "**Testnet** is a testing network included with Bitcoin Core and supported by many other Bitcoin applications.  **Testnet3** is the longest-running incarnation of testnet as of 2024, with **testnet4** currently being a recently started replacement.\n"
+  },
+  {
+    "title": "Threshold signature",
+    "slug": "threshold-signature",
+    "optech_url": "https://bitcoinops.org/en/topics/threshold-signature/",
+    "categories": [
+      "Privacy Enhancements",
+      "Fee Management"
+    ],
+    "aliases": null,
+    "excerpt": "A **threshold signature** is a digital signature that may have been created by an authorized subset of the private keys which were previously used to create the corresponding public key.  Threshold signatures can be verified using only a single public key and a single signature.\n"
+  },
+  {
+    "title": "Time warp",
+    "slug": "time-warp",
+    "optech_url": "https://bitcoinops.org/en/topics/time-warp/",
+    "categories": [
+      "Security Problems"
+    ],
+    "aliases": null,
+    "excerpt": "**Time warp** is an exploit of Bitcoin's difficulty adjustment algorithm that allows miners controlling a large amount of hashrate to prevent difficulty from increasing even as the rate of block production increases.\n"
+  },
+  {
+    "title": "Timelocks",
+    "slug": "timelocks",
+    "optech_url": "https://bitcoinops.org/en/topics/timelocks/",
+    "categories": [
+      "Scripts and Addresses",
+      "Contract Protocols",
+      "Transaction Relay Policy"
+    ],
+    "aliases": null,
+    "excerpt": "**Timelocks** are encumbrances that prevent a transaction or the spend of an output from being confirmed prior to a maturity time or block height.\n"
+  },
+  {
+    "title": "Timeout trees",
+    "slug": "timeout-trees",
+    "optech_url": "https://bitcoinops.org/en/topics/timeout-trees/",
+    "categories": [
+      "Contract Protocols"
+    ],
+    "aliases": null,
+    "excerpt": "**Timeout trees** are a type of trustless contract protocol that produces a tree of offchain transactions that only remain safe against counterparty theft for a limited period of time (i.e., they time out).\n"
+  },
+  {
+    "title": "Trampoline payments",
+    "slug": "trampoline-payments",
+    "optech_url": "https://bitcoinops.org/en/topics/trampoline-payments/",
+    "categories": [
+      "Lightning Network"
+    ],
+    "aliases": null,
+    "excerpt": "**Trampoline payments** are a proposed type of payment where the spender routes the payment to an intermediate node who can select the rest of the path to the final receiver.\n"
+  },
+  {
+    "title": "Transaction bloom filtering",
+    "slug": "transaction-bloom-filtering",
+    "optech_url": "https://bitcoinops.org/en/topics/transaction-bloom-filtering/",
+    "categories": [
+      "Lightweight Client Support",
+      "Privacy Problems",
+      "P2P Network Protocol",
+      "Security Problems"
+    ],
+    "aliases": [
+      "BIP37",
+      "Bloom filters"
+    ],
+    "excerpt": "**Transaction bloom filtering** is a method that allows lightweight clients to limit the amount of transaction data they receive from full nodes to only those transactions that affect their wallet (plus a configurable amount of additional transactions to generate plausible deniability about which transactions belong to the client).\n"
+  },
+  {
+    "title": "Transaction origin privacy",
+    "slug": "transaction-origin-privacy",
+    "optech_url": "https://bitcoinops.org/en/topics/transaction-origin-privacy/",
+    "categories": [
+      "Transaction Relay Policy",
+      "Privacy Enhancements",
+      "Privacy Problems"
+    ],
+    "aliases": null,
+    "excerpt": "**Transaction origin privacy** is the ability to hide the origin of a transaction from network surveillance.\n"
+  },
+  {
+    "title": "Transaction pinning",
+    "slug": "transaction-pinning",
+    "optech_url": "https://bitcoinops.org/en/topics/transaction-pinning/",
+    "categories": [
+      "Security Problems",
+      "Fee Management",
+      "Contract Protocols",
+      "Transaction Relay Policy"
+    ],
+    "aliases": null,
+    "excerpt": "**Transaction pinning** is a method for making fee bumping prohibitively expensive by abusing node protections against attacks that can waste bandwidth, CPU, and memory.  This can make fee management more difficult in multiparty contract protocols (such as LN).\n"
+  },
+  {
+    "title": "Transaction Relay Policy (Miscellaneous)",
+    "slug": "transaction-relay-policy",
+    "categories": [
+      "Transaction Relay Policy"
+    ],
+    "excerpt": "A catch-all for information related to Transaction Relay Policy, covering content that doesn't fit neatly into specific topics."
+  },
+  {
+    "title": "Trimmed HTLC",
+    "slug": "trimmed-htlc",
+    "optech_url": "https://bitcoinops.org/en/topics/trimmed-htlc/",
+    "categories": [
+      "Lightning Network"
+    ],
+    "aliases": null,
+    "excerpt": "**Trimmed HTLCs** are forwardable LN payments that are below a channel's economic limit for being resolved onchain.  Instead, a commitment transaction that goes onchain pays the value of all trimmed HTLCs to transaction fees.\n"
+  },
+  {
+    "title": "Unannounced channels",
+    "slug": "unannounced-channels",
+    "optech_url": "https://bitcoinops.org/en/topics/unannounced-channels/",
+    "categories": [
+      "Lightning Network"
+    ],
+    "aliases": [
+      "Private channels"
+    ],
+    "excerpt": "**Unannounced channels** are LN channels that are not advertised to the network for use in routing.\n"
+  },
+  {
+    "title": "Uneconomical outputs",
+    "slug": "uneconomical-outputs",
+    "optech_url": "https://bitcoinops.org/en/topics/uneconomical-outputs/",
+    "categories": [
+      "Transaction Relay Policy",
+      "Privacy Problems"
+    ],
+    "aliases": [
+      "Dust"
+    ],
+    "excerpt": "**Uneconomical outputs** are transaction outputs that are worth less than the fees it will cost to spend them.  To prevent users from creating uneconomical outputs that will increase the size of the UTXO set,  Bitcoin Core and other nodes refuse to relay or mine transactions with outputs below a certain value, called the **dust limit**.\n"
+  },
+  {
+    "title": "Utreexo",
+    "slug": "utreexo",
+    "optech_url": "https://bitcoinops.org/en/topics/utreexo/",
+    "categories": [
+      "P2P Network Protocol",
+      "Consensus Enforcement"
+    ],
+    "aliases": null,
+    "excerpt": "**Utreexo** is a proposed alternative to the UTXO set for allowing full nodes to obtain and verify information about the UTXOs being spent in a transaction.\n"
+  },
+  {
+    "title": "Vaults",
+    "slug": "vaults",
+    "optech_url": "https://bitcoinops.org/en/topics/vaults/",
+    "categories": [
+      "Scripts and Addresses",
+      "Security Enhancements"
+    ],
+    "aliases": null,
+    "excerpt": "**Vault** are a type of covenant that require two separate transactions to appear in two different blocks in order for a user to spend money from their wallet.  The first transaction signals that someone is attempting to spend the money and gives the user a chance to block the second transaction that completes the spend.\n"
+  },
+  {
+    "title": "Version 2 P2P transport",
+    "slug": "v2-p2p-transport",
+    "optech_url": "https://bitcoinops.org/en/topics/v2-p2p-transport/",
+    "categories": [
+      "P2P Network Protocol",
+      "Privacy Enhancements"
+    ],
+    "aliases": [
+      "BIP151",
+      "BIP324"
+    ],
+    "excerpt": "**Version 2 (v2) P2P transport** is a proposal to allow Bitcoin nodes to communicate with each other over encrypted connections.\n"
+  },
+  {
+    "title": "Version 3 transaction relay",
+    "slug": "v3-transaction-relay",
+    "optech_url": "https://bitcoinops.org/en/topics/version-3-transaction-relay/",
+    "categories": [
+      "Contract Protocols",
+      "Transaction Relay Policy"
+    ],
+    "aliases": [
+      "Topologically Restricted Until Confirmation (TRUC)"
+    ],
+    "excerpt": "**Version 3 transaction relay** is a proposal to allow transactions to opt-in to a modified set of transaction relay policies designed to prevent pinning attacks. Combined with package relay, these policies help enable the use of dynamic feerates with LN onchain transactions.\n"
+  },
+  {
+    "title": "Wallet Collaboration Tools (Miscellaneous)",
+    "slug": "wallet-collaboration-tools",
+    "categories": [
+      "Wallet Collaboration Tools"
+    ],
+    "excerpt": "A catch-all for information related to Wallet Collaboration Tools, covering content that doesn't fit neatly into specific topics."
+  },
+  {
+    "title": "Wallet labels",
+    "slug": "wallet-labels",
+    "optech_url": "https://bitcoinops.org/en/topics/wallet-labels/",
+    "categories": [
+      "Backup and Recovery",
+      "Wallet Collaboration Tools"
+    ],
+    "aliases": null,
+    "excerpt": "**Wallet labels** are descriptions of addresses, transactions, and other information which help a user understand their past transaction history.  Labels are not communicated to parties unrelated to the address or transaction, and they're not stored in any public information source (like the block chain).\n"
+  },
+  {
+    "title": "Watchtowers",
+    "slug": "watchtowers",
+    "optech_url": "https://bitcoinops.org/en/topics/watchtowers/",
+    "categories": [
+      "Lightning Network",
+      "Security Enhancements",
+      "Backup and Recovery"
+    ],
+    "aliases": null,
+    "excerpt": "**Watchtowers** monitor the block chain for transactions that may cause one of their users to lose funds.  If a theft attempt is detected, the watchtower acts to stop the theft, such as by sending a penalty or recovery transaction on behalf of the affected user.\n"
+  },
+  {
+    "title": "X-only public keys",
+    "slug": "x-only-public-keys",
+    "optech_url": "https://bitcoinops.org/en/topics/x-only-public-keys/",
+    "categories": [
+      "Scripts and Addresses"
+    ],
+    "aliases": null,
+    "excerpt": "**X-only public keys** are public keys for the secp256k1 elliptic curve that only provide the _x_ coordinate for their position in the finite field.  This is in comparison to _uncompressed public keys_ that provide both their _x_ and _y_ coordinates and _compressed public keys_ that provide their _x_ coordinate plus an additional bit to differentiate the two _y_ alternatives.\n"
+  },
+  {
+    "title": "Zero-conf channels",
+    "slug": "zero-conf-channels",
+    "optech_url": "https://bitcoinops.org/en/topics/zero-conf-channels/",
+    "categories": [
+      "Lightning Network"
+    ],
+    "aliases": null,
+    "excerpt": "**Zero-conf channels**, also called turbo channels, are new single-funded channels where the funder gives some or all of their initial funds to the acceptor. Those funds are not secure until the channel open transaction receives a sufficient number of confirmations, so there’s no risk to the acceptor spending some of those funds back through the funder using the standard LN protocol.\n"
+  }
+]
