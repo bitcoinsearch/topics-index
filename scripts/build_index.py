@@ -19,6 +19,15 @@ class TopicsBuilder:
         self.optech_topics_url = optech_topics_url
         self.topics_dir = topics_dir
         self.root_dir = root_dir
+        self.category_slugs = self.load_category_slugs()
+
+    def load_category_slugs(self) -> Dict[str, str]:
+        """Load category slug mappings from category-slugs.yaml."""
+        slugs_path = os.path.join(self.root_dir, "category-slugs.yaml")
+        if os.path.exists(slugs_path):
+            with open(slugs_path, "r") as f:
+                return yaml.safe_load(f) or {}
+        return {}
 
     def fetch_optech_topics(self) -> List[Dict]:
         """Fetch topics directly from the Bitcoin Optech website."""
@@ -52,12 +61,16 @@ class TopicsBuilder:
             categories.update(topic_categories)
         return categories
 
+    def get_category_slug(self, category: str) -> str:
+        """Get the slug for a category, using custom mapping if available."""
+        return self.category_slugs.get(category, category.lower().replace(" ", "-"))
+
     def generate_misc_topics(self, categories: set) -> List[Dict]:
         """Generate miscellaneous topics for each category."""
         misc_topics = []
         for category in categories:
-            # Convert category to slug format
-            slug = category.lower().replace(" ", "-")
+            # Use custom slug if defined, otherwise use default slug format
+            slug = self.get_category_slug(category)
 
             # Create misc topic for the category
             misc_topic = {

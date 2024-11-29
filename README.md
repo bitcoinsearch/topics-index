@@ -35,6 +35,13 @@ aliases: # Optional: Alternative names for the topic
 excerpt: "A comprehensive description of the topic."
 ```
 
+## Category Topics
+
+Each category automatically includes a miscellaneous topic that covers content which doesn't fit neatly into other specific topics.
+By default, these topics use slugs generated from the category name (lowercase with hyphens).
+
+For categories that need custom slugs, define them in [category-slugs.yaml](category-slugs.yaml).
+
 ## Usage
 
 ### Building the Index
@@ -49,7 +56,7 @@ This will:
 
 1. Fetch the latest topics from Bitcoin Optech's [/topics.json](https://bitcoinops.org/topics.json).
 2. Combine them with additional topics from the `topics/` directory
-3. Automatically generate miscellaneous topics for each category to support uncategorized content
+3. Generate misc topics for each category using slugs from `category-slugs.yaml` where defined
 4. Generate `topics.json` with the complete topics data
 5. Create `TOPICS.md` with categorized listings
 

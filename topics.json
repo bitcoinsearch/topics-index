@@ -900,7 +900,7 @@
   },
   {
     "title": "Lightning Network (Miscellaneous)",
-    "slug": "lightning-network",
+    "slug": "lightning",
     "categories": [
       "Lightning Network"
     ],
@@ -908,7 +908,7 @@
   },
   {
     "title": "Lightweight Client Support (Miscellaneous)",
-    "slug": "lightweight-client-support",
+    "slug": "lightweight-client",
     "categories": [
       "Lightweight Client Support"
     ],
@@ -1170,7 +1170,7 @@
   },
   {
     "title": "P2P Network Protocol (Miscellaneous)",
-    "slug": "p2p-network-protocol",
+    "slug": "p2p",
     "categories": [
       "P2P Network Protocol"
     ],
@@ -1458,7 +1458,7 @@
   },
   {
     "title": "Scripts and Addresses (Miscellaneous)",
-    "slug": "scripts-and-addresses",
+    "slug": "scripts-addresses",
     "categories": [
       "Scripts and Addresses"
     ],
