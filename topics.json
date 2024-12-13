@@ -1487,7 +1487,10 @@
     "categories": [
       "Soft Forks"
     ],
-    "aliases": null,
+    "aliases": [
+      "SegWit",
+      "BIP141"
+    ],
     "excerpt": "**Segregated witness** (segwit) was a soft fork that activated in 2017.\n"
   },
   {
